@@ -32,6 +32,9 @@ organizations:
     url: https://www.cnam.fr/
 education:
   courses:
+    - course: HDR in Mechanics
+      institution: Cnam Paris
+      year: 2019
     - course: PhD in Acoustics
       institution: INSA de Lyon
       year: 2010
