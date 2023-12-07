@@ -49,7 +49,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://hal.science/hal-03768674'
 url_code: ''
 url_dataset: ''
 url_poster: ''
