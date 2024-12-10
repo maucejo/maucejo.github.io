@@ -1,0 +1,80 @@
+/*-- scss:defaults --*/
+// Colors: Quarto variables
+$primary:#C1002A;
+$secondary:#405A68;
+// // Colors: custom variables
+$primary-light: lighten($primary, 20%);
+$secondary-light: lighten($secondary, 20%);
+
+// // Body
+$body-color:                 #11304C;
+$body-secondary:             #6C757D;
+
+// Fonts
+$headings-font-family: "Raleway";
+$headings-font-weight: 400;
+
+$font-family-sans-serif: "Lato";
+$font-family-monospace: "Dank Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+
+// Links
+$link-color:                  $primary;
+$link-decoration:             underline;
+$link-hover-color:            $secondary;
+$link-hover-decoration:       none;
+
+// Paragraphs
+p {
+  text-align: justify;
+}
+
+// For the home page
+.index {
+  font-size: 0.8em;
+}
+
+.desc {
+  color: $secondary-light;
+  font-size: 0.85em;
+  text-indent: 1.75em;
+}
+
+// Title
+.title {
+  font-size: 2.5em;
+  font-weight: 500;
+  line-height: 1.1em;
+}
+
+// Navbar
+// Title
+.navbar-title {
+  font-size: 1em;
+  font-weight: 500;
+  color: white;
+
+  &:hover {
+    border-bottom: 1px solid white !important;
+  }
+}
+
+// links
+.navbar-nav .nav-link {
+  color: white !important;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  border-bottom: 0px hidden white;
+  margin: 0px 10px 0px 10px;
+  padding: 2px 2px 4px 2px !important;
+
+  &:hover {
+    border-bottom: 1px solid white !important;
+    padding: 2px 2px 0px 2px !important;
+  }
+}
+
+// Page footer logo
+.footer-link i {
+  color: $primary !important;
+}

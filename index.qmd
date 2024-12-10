@@ -1,0 +1,62 @@
+---
+title: "Mathieu Aucejo"
+image: assets/images/avatar.jpg
+about:
+    template: trestles
+    image-shape: round
+    links:
+    - icon: github
+      href: https://github.com/maucejo
+    - text: '<i class="fa fa-brands fa-mastodon"></i>'
+      href: https://piaille.fr/@maucejo
+    - icon: linkedin
+      href: https://www.linkedin.com/in/maucejo/
+    - text: '<i class="ai ai-hal fa-lg"></i>'
+      href: https://cv.hal.science/mathieu-aucejo
+    - text: '<i class="ai ai-google-scholar fa-lg"></i>'
+      href: https://scholar.google.fr/citations?user=SBYsV9QAAAAJ&hl
+    - text: '<i class="ai ai-researchgate fa-lg"></i>'
+      href: https://www.researchgate.net/profile/Mathieu-Aucejo
+    - text: '<i class="ai ai-orcid fa-lg"></i>'
+      href: https://orcid.org/0000-0002-4255-0129
+
+format:
+    html:
+        page-layout: full
+---
+
+## Welcome !
+
+I am a full professor of Strucural Mechanics and Acoustics at the Laboratoire de Mécanique des structures et des Systèmes Couplés ([LMSSC](https://www.lmssc.cnam.fr/)) of [Le Cnam](https://www.cnam.fr/) in Paris.
+
+I am an enthusiastic and avid user of the Typst ![](assets/images/typst_logo.png){width=5mm} markup language and the Julia ![](assets/images/julia.svg){width=5mm} programming language (don't worry, I also like ![](assets/images/python.svg){width=5mm} and ![](assets/images/matlab.png){width=5mm}!).
+
+
+::: {layout-ncol=2}
+
+### Research interests
+<div class="index">
+- Inverse problems
+- Vibration control
+- Vibro-acoustic modeling
+</div>
+
+### Education
+<div class="index">
+{{<fa solid graduation-cap>}} 2019 - accreditation to supervise research
+<div class=desc>Conservatoire national des arts et Métiers (FR)</div>
+
+{{<fa solid graduation-cap>}} 2010 - PhD in Acoustics
+<div class="desc">Insa de Lyon (FR)</div>
+
+{{<fa solid graduation-cap>}} 2007 - MSc in Acoustics
+<div class="desc">Insa de Lyon (FR)</div>
+
+{{<fa solid graduation-cap>}} 2007 - MEng in Mechanical engineering
+<div class="desc">Insa de Lyon (FR)</div>
+
+</div>
+:::
+
+### Contact
+{{<fa solid envelope>}} &nbsp; [mathieu.aucejo@lecnam.net](mailto:mathieu.aucejo@lecnam.net)

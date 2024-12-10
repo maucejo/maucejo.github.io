@@ -1,0 +1,13 @@
+---
+title: "Curriculum Vitae"
+
+format:
+  html:
+    page-layout: full
+---
+
+Only the French version of my CV is currently available (sorry for the non-native speakers &#128532;).
+
+```{=html}
+<embed src="cv-short-fr.pdf" type="application/pdf" width="100%" height="1080px"/>
+```

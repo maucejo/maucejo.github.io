@@ -1,0 +1,49 @@
+project:
+  type: website
+
+website:
+  title: "Mathieu Aucejo"
+  page-navigation: true
+  back-to-top-navigation: true
+  favicon: assets/images/logo.svg
+
+  navbar:
+    logo: assets/images/logo.svg
+    tools:
+      - icon : github
+        href: https://github.com/maucejo
+    right:
+      - text: "CV"
+        href: cv/index.qmd
+      - text: "Blog"
+      - text: "Research"
+        menu:
+          - text: "Publications"
+          - text: "Talks"
+          - text: "Projects"
+      - text: "Teaching"
+
+  page-footer:
+    center: >-
+      <center>
+        <a class="footer-link" href="https://piaille.fr/@maucejo" title="Mastodon" target="_blank" rel="noopener">{{< fa brands mastodon >}}</a>
+        <a class="footer-link" href="https://www.linkedin.com/in/maucejo/" title="LinkedIn" target="_blank" rel="noopener">{{< fa brands linkedin >}}</a>
+        <a class="footer-link" href="https://github.com/maucejo" title="github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
+        <a class="footer-link" href="https://cv.hal.science/mathieu-aucejo" title="hal" target="_blank" rel="noopener">{{< ai hal >}}</a>
+        <a class="footer-link" href="https://scholar.google.fr/citations?user=SBYsV9QAAAAJ&hl=fr" title="Google Scholar" target="_blank"rel="noopener">{{< ai google-scholar >}}</a><br>
+        &#169; 2024 Mathieu Aucejo &#8729; Made with [Quarto](https://quarto.org)
+      </center>
+
+format:
+  html:
+    theme:
+      - cosmo
+      - assets/theme.scss
+    smooth-scroll: true
+    pagetitle: "{{< meta title >}}"
+    lightbox: true
+
+execute:
+  freeze: auto
+
+
