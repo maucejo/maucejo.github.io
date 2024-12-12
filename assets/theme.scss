@@ -7,8 +7,9 @@ $primary-light: lighten($primary, 20%);
 $secondary-light: lighten($secondary, 20%);
 
 // // Body
-$body-color:                 #11304C;
-$body-secondary:             #6C757D;
+$body-color:#11304C;
+$body-secondary:#6C757D;
+$body-tertiary-bg:#f8f9fa;
 
 // Fonts
 $headings-font-family: "Raleway";
@@ -48,6 +49,10 @@ p {
 }
 
 // Navbar
+$dropdown-link-color: $secondary;
+// $dropdown-link-hover-color: $secondary-light;
+// $dropdown-link-active-color: $primary;
+$dropdown-link-active-bg: $body-tertiary-bg;
 // Title
 .navbar-title {
   font-size: 1em;

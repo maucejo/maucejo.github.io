@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Mathieu Aucejo"
+  site-url: https://maucejo.github.io
   page-navigation: true
   back-to-top-navigation: true
   favicon: assets/images/logo.svg
@@ -20,6 +21,7 @@ website:
       - text: "Research"
         menu:
           - text: "Publications"
+            href: research/publications/index.qmd
           - text: "Talks"
           - text: "Projects"
       - text: "Teaching"

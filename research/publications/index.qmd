@@ -1,0 +1,19 @@
+---
+title: "Publications"
+description: |
+  This page provides a complete list of my publications. Clicking on a particular item will give you access to the abstract as well as the link to download the paper or other resources.
+listing:
+  contents:
+    - "**/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: false
+  fields: [title, author, categories, date]
+  image-align: left
+
+format:
+  html:
+    page-layout: full
+---
