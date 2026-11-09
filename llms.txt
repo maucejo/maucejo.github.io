@@ -6,6 +6,6 @@
 
 - [Home](https://maucejo.github.io/)
 - [Publications](https://maucejo.github.io/publications.html): Complete list of my publications, retrieved from the HAL open archive. Most items link to an open-access PDF.
-- [Research](https://maucejo.github.io/research.html): Identifying, modelling and controlling vibrations and sound in mechanical structures.
+- [Research](https://maucejo.github.io/research.html): Identifying, modeling and controlling vibrations and sound in mechanical structures.
 - [Software](https://maucejo.github.io/software.html): Open-source packages for structural dynamics in Julia and templates for scientific writing in Typst.
 - [Teaching](https://maucejo.github.io/teaching.html): Courses in structural mechanics, vibrations and acoustics at Le Cnam.

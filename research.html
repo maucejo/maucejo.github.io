@@ -15,9 +15,9 @@
     
     
     
-    <meta name="description" content="Identifying, modelling and controlling vibrations and sound in mechanical structures.">
-    <meta property="og:description" content="Identifying, modelling and controlling vibrations and sound in mechanical structures.">
-    <meta name="twitter:description" content="Identifying, modelling and controlling vibrations and sound in mechanical structures.">
+    <meta name="description" content="Identifying, modeling and controlling vibrations and sound in mechanical structures.">
+    <meta property="og:description" content="Identifying, modeling and controlling vibrations and sound in mechanical structures.">
+    <meta name="twitter:description" content="Identifying, modeling and controlling vibrations and sound in mechanical structures.">
     
     
     <meta name="theme-color" content="#11304C">
@@ -2100,7 +2100,7 @@ html[data-theme="dark"] .mx-brand-logo {
 .mx-hero-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem 1.25rem;
+  gap: 0.4rem 0.6rem;
   margin: 0 0 2rem;
   color: var(--calepin-color-muted);
   font-size: 0.92rem;
@@ -2111,9 +2111,12 @@ html[data-theme="dark"] .mx-brand-logo {
   font-weight: 500;
 }
 
-.mx-hero-meta span::before {
-  content: "◦ ";
-  color: var(--calepin-color-accent);
+.mx-hero-meta > * + *::before {
+  content: "•";
+  display: inline-block;
+  margin-right: 0.6rem;
+  color: var(--mx-crimson);
+  font-weight: 700;
 }
 
 .mx-hero-actions {
@@ -2946,13 +2949,13 @@ html[data-theme="dark"] .mx-pub-type.is-chapter { color: #f0b54a; }
     <header class="mx-page-header">
         <div class="mx-container">
             <h1 class="mx-page-title">Research</h1>
-            <p class="mx-page-lead">Identifying, modelling and controlling vibrations and sound in mechanical structures.</p>
+            <p class="mx-page-lead">Identifying, modeling and controlling vibrations and sound in mechanical structures.</p>
         </div>
     </header>
 
     <div class="mx-container mx-page">
         <main id="content" class="mx-main calepin-content" data-pagefind-body>
-            <p class="mx-lead">My research takes place at the <a href="https://www.lmssc.cnam.fr/" target="_blank" rel="noopener">LMSSC</a> laboratory of Le Cnam. It lies at the crossroads of structural dynamics, acoustics and signal processing, with a strong focus on methods that can be used on real measured data.</p><section id="inverse-problems" class="mx-section"><header class="mx-section-head"><p class="mx-kicker">Theme 1</p><h2 class="mx-section-title" id="inverse-problems">Inverse problems</h2></header><p>How can we recover the forces acting on a structure, or the parameters of a model, from a limited number of noisy vibration measurements? I work on regularisation strategies — Bayesian inference, sparse priors and frequency-domain Kalman filtering — for source identification in structural dynamics.</p><ul class="mx-chips"><li class="mx-chip">Source identification</li><li class="mx-chip">Bayesian inference</li><li class="mx-chip">Kalman filtering</li><li class="mx-chip">Regularisation</li><li class="mx-chip">Sparsity</li></ul></section><section id="vibration-control" class="mx-section"><header class="mx-section-head"><p class="mx-kicker">Theme 2</p><h2 class="mx-section-title" id="vibration-control">Vibration control</h2></header><p>Reducing vibration levels and radiated noise in mechanical systems, by designing passive treatments and active control strategies.</p><ul class="mx-chips"><li class="mx-chip">Active control</li><li class="mx-chip">Passive damping</li><li class="mx-chip">Structural dynamics</li></ul></section><section id="vibro-acoustics" class="mx-section"><header class="mx-section-head"><p class="mx-kicker">Theme 3</p><h2 class="mx-section-title" id="vibro-acoustic-modelling">Vibro-acoustic modelling</h2></header><p>Building models that predict how structures vibrate and radiate sound, and how they interact with surrounding fluids — the basis for both identification and control.</p><ul class="mx-chips"><li class="mx-chip">Vibro-acoustics</li><li class="mx-chip">Modal analysis</li><li class="mx-chip">Numerical methods</li></ul></section><section class="mx-section"><header class="mx-section-head"><p class="mx-kicker">Tools</p><h2 class="mx-section-title" id="open-science">Open science</h2></header><p>Most of the methods I develop are released as open-source software, so that results can be reproduced and reused in teaching.</p><div style="--mx-cols: 2" class="mx-cards"><a href="publications.html" class="mx-card is-link"><div class="mx-card-top"><span class="mx-card-tag">HAL</span></div><h3 class="mx-card-title" id="publications">Publications</h3><div class="mx-card-body">The complete list of my articles and conference papers, most with open-access PDFs.</div><span aria-hidden="true" class="mx-card-arrow">→</span></a><a href="software.html" class="mx-card is-link"><div class="mx-card-top"><span class="mx-card-tag">GitHub</span></div><h3 class="mx-card-title" id="software">Software</h3><div class="mx-card-body">Julia packages for structural dynamics and Typst templates for scientific writing.</div><span aria-hidden="true" class="mx-card-arrow">→</span></a></div></section>
+            <p class="mx-lead">My research takes place at the <a href="https://www.macs.cnam.fr/" target="_blank" rel="noopener">MACS</a> laboratory of <a href="https://www.cnam.fr/" target="_blank" rel="noopener">Le Cnam</a>. It lies at the crossroads of structural dynamics, acoustics and signal processing, with a strong focus on methods that can be used on real measured data.</p><section id="inverse-problems" class="mx-section"><header class="mx-section-head"><p class="mx-kicker">Theme 1</p><h2 class="mx-section-title" id="inverse-problems">Inverse problems</h2></header><p>How can we recover the forces acting on a structure from a limited number of noisy vibration measurements? I work on Bayesian methods — Bayesian inference, Bayesian regularization filtering and Gaussian processes — in time and frequency domains for source identification in structural dynamics.</p><ul class="mx-chips"><li class="mx-chip">Source identification</li><li class="mx-chip">Bayesian inference</li><li class="mx-chip">Bayesian filtering</li><li class="mx-chip">Regularization</li><li class="mx-chip">Gaussian processes</li></ul></section><section id="vibration-control" class="mx-section"><header class="mx-section-head"><p class="mx-kicker">Theme 2</p><h2 class="mx-section-title" id="vibration-control">Vibration control</h2></header><p>Reducing vibration levels and radiated noise in mechanical systems, by designing passive treatments and active control strategies.</p><ul class="mx-chips"><li class="mx-chip">Active control</li><li class="mx-chip">Passive damping</li><li class="mx-chip">Structural dynamics</li></ul></section><section id="vibro-acoustics" class="mx-section"><header class="mx-section-head"><p class="mx-kicker">Theme 3</p><h2 class="mx-section-title" id="vibro-acoustic-modeling">Vibro-acoustic modeling</h2></header><p>Building models that predict how structures vibrate and radiate sound, and how they interact with surrounding fluids. This is the basis for both identification and control.</p><ul class="mx-chips"><li class="mx-chip">Vibro-acoustics</li><li class="mx-chip">Modal analysis</li><li class="mx-chip">Numerical methods</li></ul></section><section class="mx-section"><header class="mx-section-head"><p class="mx-kicker">Tools</p><h2 class="mx-section-title" id="open-science">Open science</h2></header><p>Most of the methods I develop are released as open-source software, so that results can be reproduced and reused in teaching.</p><div style="--mx-cols: 2" class="mx-cards"><a href="publications.html" class="mx-card is-link"><div class="mx-card-top"><span class="mx-card-tag">HAL</span></div><h3 class="mx-card-title" id="publications">Publications</h3><div class="mx-card-body">The complete list of my articles and conference papers, most with open-access PDFs.</div><span aria-hidden="true" class="mx-card-arrow">→</span></a><a href="software.html" class="mx-card is-link"><div class="mx-card-top"><span class="mx-card-tag">GitHub</span></div><h3 class="mx-card-title" id="software">Software</h3><div class="mx-card-body">Julia packages for structural dynamics and Typst templates for scientific writing.</div><span aria-hidden="true" class="mx-card-arrow">→</span></a></div></section>
         </main>
                 
     </div>
@@ -2960,7 +2963,7 @@ html[data-theme="dark"] .mx-pub-type.is-chapter { color: #f0b54a; }
         <div class="mx-container mx-footer-inner">
             <div class="mx-footer-id">
                 <p class="mx-footer-name">Mathieu Aucejo</p>
-                <p class="mx-footer-meta">LMSSC · Conservatoire national des arts et métiers · Paris, France</p>
+                <p class="mx-footer-meta">MACS · Conservatoire national des arts et métiers · Paris, France</p>
             </div>
             
 

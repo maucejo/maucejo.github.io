@@ -2100,7 +2100,7 @@ html[data-theme="dark"] .mx-brand-logo {
 .mx-hero-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem 1.25rem;
+  gap: 0.4rem 0.6rem;
   margin: 0 0 2rem;
   color: var(--calepin-color-muted);
   font-size: 0.92rem;
@@ -2111,9 +2111,12 @@ html[data-theme="dark"] .mx-brand-logo {
   font-weight: 500;
 }
 
-.mx-hero-meta span::before {
-  content: "◦ ";
-  color: var(--calepin-color-accent);
+.mx-hero-meta > * + *::before {
+  content: "•";
+  display: inline-block;
+  margin-right: 0.6rem;
+  color: var(--mx-crimson);
+  font-weight: 700;
 }
 
 .mx-hero-actions {
@@ -2960,7 +2963,7 @@ html[data-theme="dark"] .mx-pub-type.is-chapter { color: #f0b54a; }
         <div class="mx-container mx-footer-inner">
             <div class="mx-footer-id">
                 <p class="mx-footer-name">Mathieu Aucejo</p>
-                <p class="mx-footer-meta">LMSSC · Conservatoire national des arts et métiers · Paris, France</p>
+                <p class="mx-footer-meta">MACS · Conservatoire national des arts et métiers · Paris, France</p>
             </div>
             
 
