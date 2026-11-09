@@ -140,6 +140,20 @@
       if p.doi != "" { link-out("https://doi.org/" + p.doi, class: "mx-pub-link", "DOI") }
       if p.hal != "" { link-out(p.hal, class: "mx-pub-link", "HAL") }
       if p.pdf != "" { link-out(p.pdf, class: "mx-pub-link is-pdf", "PDF") }
+      let n = p.at("citations", default: none)
+      if n != none {
+        let label = str(n) + if n == 1 { " citation" } else { " citations" } + " (OpenAlex)"
+        let oa = p.at("openalex", default: "")
+        let href = if oa != "" {
+          "https://openalex.org/works?filter=cites:" + oa.split("/").last()
+        } else { "https://doi.org/" + p.doi }
+        el("a", class: "mx-pub-cites" + if n == 0 { " is-zero" } else { "" }, attrs: (
+          href: href, target: "_blank", rel: "noopener", title: label, "aria-label": label,
+        ), {
+          el("span", class: "mx-pub-cites-icon", attrs: ("aria-hidden": "true"), "")
+          el("span", class: "mx-pub-cites-count", str(n))
+        })
+      }
     })
   })
 })

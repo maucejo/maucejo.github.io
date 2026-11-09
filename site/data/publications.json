@@ -12,7 +12,9 @@
   "venue": "Journal of Sound and Vibration, vol. 647, p. 120170",
   "doi": "10.1016/j.jsv.2026.120170",
   "hal": "https://hal.science/hal-05798703v1",
-  "pdf": "https://hal.science/hal-05798703/document"
+  "pdf": "https://hal.science/hal-05798703/document",
+  "citations": 0,
+  "openalex": "https://openalex.org/W7220987863"
  },
  {
   "id": "hal-05671132",
@@ -29,7 +31,9 @@
   "venue": "Multidisciplinary Biomechanics Journal, vol. 51st congress of the Société...",
   "doi": "10.46298/mbj.19217",
   "hal": "https://inria.hal.science/hal-05671132v2",
-  "pdf": "https://inria.hal.science/hal-05671132/document"
+  "pdf": "https://inria.hal.science/hal-05671132/document",
+  "citations": 0,
+  "openalex": "https://openalex.org/W7166919842"
  },
  {
   "id": "hal-05038580",
@@ -44,7 +48,9 @@
   "venue": "Mechanical Systems and Signal Processing, vol. 232, p. 112729",
   "doi": "10.1016/j.ymssp.2025.112729",
   "hal": "https://hal.science/hal-05038580v2",
-  "pdf": "https://hal.science/hal-05038580/document"
+  "pdf": "https://hal.science/hal-05038580/document",
+  "citations": 4,
+  "openalex": "https://openalex.org/W4409528711"
  },
  {
   "id": "hal-05053743",
@@ -58,7 +64,9 @@
   "venue": "CFA 2025 - 17e Congrès Français d'Acoustique, Paris",
   "doi": "",
   "hal": "https://hal.science/hal-05053743v1",
-  "pdf": "https://hal.science/hal-05053743/document"
+  "pdf": "https://hal.science/hal-05053743/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-05191749",
@@ -75,7 +83,9 @@
   "venue": "Multidisciplinary Biomechanics Journal, vol. 2, p. 485–487",
   "doi": "10.46298/mbj.16196",
   "hal": "https://hal.science/hal-05191749v2",
-  "pdf": "https://hal.science/hal-05191749/document"
+  "pdf": "https://hal.science/hal-05191749/document",
+  "citations": 0,
+  "openalex": "https://openalex.org/W4415249298"
  },
  {
   "id": "hal-04181997",
@@ -93,7 +103,9 @@
   "venue": "Journal of Sound and Vibration, vol. 569, p. 117994",
   "doi": "10.1016/j.jsv.2023.117994",
   "hal": "https://hal.science/hal-04181997v1",
-  "pdf": "https://hal.science/hal-04181997/document"
+  "pdf": "https://hal.science/hal-04181997/document",
+  "citations": 3,
+  "openalex": "https://openalex.org/W4385638478"
  },
  {
   "id": "hal-04682354",
@@ -107,7 +119,9 @@
   "venue": "Internoise 2024, Nantes",
   "doi": "",
   "hal": "https://hal.science/hal-04682354v1",
-  "pdf": "https://hal.science/hal-04682354/document"
+  "pdf": "https://hal.science/hal-04682354/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-04682371",
@@ -124,7 +138,9 @@
   "venue": "Internoise 2024, Nantes",
   "doi": "",
   "hal": "https://hal.science/hal-04682371v1",
-  "pdf": "https://hal.science/hal-04682371/document"
+  "pdf": "https://hal.science/hal-04682371/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-04826671",
@@ -141,7 +157,9 @@
   "venue": "2024 - Sport Physics conference, Rennes",
   "doi": "",
   "hal": "https://inria.hal.science/hal-04826671v1",
-  "pdf": "https://inria.hal.science/hal-04826671/document"
+  "pdf": "https://inria.hal.science/hal-04826671/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-04853856",
@@ -161,7 +179,9 @@
   "venue": "33rd International Conference on Adaptive Structures and Technologies, ICAST 2024, Atlanta",
   "doi": "",
   "hal": "https://hal.science/hal-04853856v1",
-  "pdf": ""
+  "pdf": "",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-04210321",
@@ -175,7 +195,9 @@
   "venue": "Forum Acusticum 2023, Turin (IT)",
   "doi": "10.61782/fa.2023.0035",
   "hal": "https://hal.science/hal-04210321v1",
-  "pdf": "https://hal.science/hal-04210321/document"
+  "pdf": "https://hal.science/hal-04210321/document",
+  "citations": 0,
+  "openalex": "https://openalex.org/W4386943772"
  },
  {
   "id": "hal-04221352",
@@ -191,7 +213,9 @@
   "venue": "Mechanical Systems and Signal Processing, vol. 204, p. 110794",
   "doi": "10.1016/j.ymssp.2023.110794",
   "hal": "https://hal.science/hal-04221352v1",
-  "pdf": "https://hal.science/hal-04221352/document"
+  "pdf": "https://hal.science/hal-04221352/document",
+  "citations": 15,
+  "openalex": "https://openalex.org/W4387128935"
  },
  {
   "id": "hal-03557526",
@@ -205,7 +229,9 @@
   "venue": "Mechanical Systems and Signal Processing, vol. 171, p. 108881",
   "doi": "10.1016/j.ymssp.2022.108881",
   "hal": "https://hal.science/hal-03557526v1",
-  "pdf": "https://hal.science/hal-03557526/document"
+  "pdf": "https://hal.science/hal-03557526/document",
+  "citations": 8,
+  "openalex": "https://openalex.org/W4210661732"
  },
  {
   "id": "hal-03700301",
@@ -221,7 +247,9 @@
   "venue": "Mechanical Systems and Signal Processing",
   "doi": "10.1016/j.ymssp.2022.109416",
   "hal": "https://hal.science/hal-03700301v1",
-  "pdf": "https://hal.science/hal-03700301/document"
+  "pdf": "https://hal.science/hal-03700301/document",
+  "citations": 21,
+  "openalex": "https://openalex.org/W4283207092"
  },
  {
   "id": "hal-03778380",
@@ -237,7 +265,9 @@
   "venue": "ISMA 2022, Leuven",
   "doi": "",
   "hal": "https://hal.science/hal-03778380v1",
-  "pdf": "https://hal.science/hal-03778380/document"
+  "pdf": "https://hal.science/hal-03778380/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-03865387",
@@ -253,7 +283,9 @@
   "venue": "10th Conference on Inverse Problems, Control and Shape Optimization : PICOF’22, Caen",
   "doi": "",
   "hal": "https://hal.science/hal-03865387v1",
-  "pdf": ""
+  "pdf": "",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-03768674",
@@ -269,7 +301,9 @@
   "venue": "Congrès Français de Mécanique 2022, Nantes",
   "doi": "",
   "hal": "https://hal.science/hal-03768674v1",
-  "pdf": "https://hal.science/hal-03768674/document"
+  "pdf": "https://hal.science/hal-03768674/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-03848360",
@@ -286,7 +320,9 @@
   "venue": "16ème Congrès Français d'Acoustique, CFA2022, Marseille",
   "doi": "",
   "hal": "https://hal.science/hal-03848360v1",
-  "pdf": ""
+  "pdf": "",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-03149400",
@@ -301,7 +337,9 @@
   "venue": "Mechanical Systems and Signal Processing, vol. 157, p. 107637",
   "doi": "10.1016/j.ymssp.2021.107637",
   "hal": "https://hal.science/hal-03149400v1",
-  "pdf": "https://hal.science/hal-03149400/document"
+  "pdf": "https://hal.science/hal-03149400/document",
+  "citations": 11,
+  "openalex": "https://openalex.org/W3133459582"
  },
  {
   "id": "hal-03505178",
@@ -316,7 +354,9 @@
   "venue": "16th International Conference Dynamical Systems - Theory and Applications, Virtual event",
   "doi": "",
   "hal": "https://hal.science/hal-03505178v1",
-  "pdf": "https://hal.science/hal-03505178/document"
+  "pdf": "https://hal.science/hal-03505178/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-03225940",
@@ -333,7 +373,9 @@
   "venue": "Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science, vol. 235, p. 2637-2650",
   "doi": "10.1177/09544062211003621",
   "hal": "https://hal.science/hal-03225940v1",
-  "pdf": "https://hal.science/hal-03225940/document"
+  "pdf": "https://hal.science/hal-03225940/document",
+  "citations": 4,
+  "openalex": "https://openalex.org/W3161630995"
  },
  {
   "id": "hal-03200124",
@@ -350,7 +392,9 @@
   "venue": "Applied Acoustics, vol. 179, p. 108065",
   "doi": "10.1016/j.apacoust.2021.108065",
   "hal": "https://hal.science/hal-03200124v1",
-  "pdf": "https://hal.science/hal-03200124/document"
+  "pdf": "https://hal.science/hal-03200124/document",
+  "citations": 10,
+  "openalex": "https://openalex.org/W3155763478"
  },
  {
   "id": "hal-03430385",
@@ -367,7 +411,9 @@
   "venue": "Inter Noise 2021, Washington DC (virtual)",
   "doi": "10.3397/IN-2021-1976",
   "hal": "https://hal.science/hal-03430385v1",
-  "pdf": "https://hal.science/hal-03430385/document"
+  "pdf": "https://hal.science/hal-03430385/document",
+  "citations": 0,
+  "openalex": "https://openalex.org/W3199995132"
  },
  {
   "id": "hal-04050184",
@@ -384,7 +430,9 @@
   "venue": "11ème Journées Jeunes Chercheuses et Chercheurs Acoustique, vibrations et Bruit, JJCAB2021, Compiègne",
   "doi": "",
   "hal": "https://cnam.hal.science/hal-04050184v1",
-  "pdf": "https://cnam.hal.science/hal-04050184/document"
+  "pdf": "https://cnam.hal.science/hal-04050184/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-02551104",
@@ -399,7 +447,9 @@
   "venue": "Mechanical Systems and Signal Processing, vol. 140, p. 106887",
   "doi": "10.1016/j.ymssp.2020.106887",
   "hal": "https://hal.science/hal-02551104v1",
-  "pdf": "https://hal.science/hal-02551104/document"
+  "pdf": "https://hal.science/hal-02551104/document",
+  "citations": 9,
+  "openalex": "https://openalex.org/W3019975194"
  },
  {
   "id": "hal-02424030",
@@ -414,7 +464,9 @@
   "venue": "Journal of Sound and Vibration, vol. 469, p. 115135",
   "doi": "10.1016/j.jsv.2019.115135",
   "hal": "https://hal.science/hal-02424030v1",
-  "pdf": "https://hal.science/hal-02424030/document"
+  "pdf": "https://hal.science/hal-02424030/document",
+  "citations": 17,
+  "openalex": "https://openalex.org/W2996564310"
  },
  {
   "id": "hal-02486891",
@@ -431,7 +483,9 @@
   "venue": "MEDYNA 2020: 3rd Euro-Mediterranean Conference on Structural Dynamics and Vibroacoustics, Napoli",
   "doi": "",
   "hal": "https://hal.science/hal-02486891v1",
-  "pdf": "https://hal.science/hal-02486891/document"
+  "pdf": "https://hal.science/hal-02486891/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-02068524",
@@ -446,7 +500,9 @@
   "venue": "Mechanical Systems and Signal Processing, vol. 126, p. 98-115",
   "doi": "10.1016/j.ymssp.2019.02.021",
   "hal": "https://hal.science/hal-02068524v1",
-  "pdf": "https://hal.science/hal-02068524/document"
+  "pdf": "https://hal.science/hal-02068524/document",
+  "citations": 51,
+  "openalex": "https://openalex.org/W2915877864"
  },
  {
   "id": "tel-02407524",
@@ -460,7 +516,9 @@
   "venue": "Habilitation thesis (HDR)",
   "doi": "",
   "hal": "https://hal.science/tel-02407524v1",
-  "pdf": "https://hal.science/tel-02407524/document"
+  "pdf": "https://hal.science/tel-02407524/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-02179323",
@@ -475,7 +533,9 @@
   "venue": "Journal of Sound and Vibration, vol. 458, p. 376-388",
   "doi": "10.1016/j.jsv.2019.06.041",
   "hal": "https://hal.science/hal-02179323v1",
-  "pdf": "https://hal.science/hal-02179323/document"
+  "pdf": "https://hal.science/hal-02179323/document",
+  "citations": 9,
+  "openalex": "https://openalex.org/W2953407388"
  },
  {
   "id": "hal-02068528",
@@ -491,7 +551,9 @@
   "venue": "Mechanical Systems and Signal Processing, vol. 118, p. 549-567",
   "doi": "10.1016/j.ymssp.2018.09.002",
   "hal": "https://hal.science/hal-02068528v1",
-  "pdf": "https://hal.science/hal-02068528/document"
+  "pdf": "https://hal.science/hal-02068528/document",
+  "citations": 39,
+  "openalex": "https://openalex.org/W2889831629"
  },
  {
   "id": "hal-02103243",
@@ -507,7 +569,9 @@
   "venue": "XIIIth Conference On Recent Advances in Structural Dynamics, Lyon",
   "doi": "",
   "hal": "https://hal.science/hal-02103243v1",
-  "pdf": "https://hal.science/hal-02103243/document"
+  "pdf": "https://hal.science/hal-02103243/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-02068530",
@@ -523,7 +587,9 @@
   "venue": "Journal of Sound and Vibration, vol. 442, p. 45-70",
   "doi": "10.1016/j.jsv.2018.10.060",
   "hal": "https://hal.science/hal-02068530v1",
-  "pdf": "https://hal.science/hal-02068530/document"
+  "pdf": "https://hal.science/hal-02068530/document",
+  "citations": 47,
+  "openalex": "https://openalex.org/W2898716241"
  },
  {
   "id": "hal-02305378",
@@ -540,7 +606,9 @@
   "venue": "23rd International Congress on Acoustics, Aachen",
   "doi": "",
   "hal": "https://hal.science/hal-02305378v1",
-  "pdf": "https://hal.science/hal-02305378/document"
+  "pdf": "https://hal.science/hal-02305378/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-03196461",
@@ -558,7 +626,9 @@
   "venue": "Joint MEMOCS Workshop on Models of Complex Materials and Systems, Arpino",
   "doi": "",
   "hal": "https://hal.science/hal-03196461v1",
-  "pdf": ""
+  "pdf": "",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-02068516",
@@ -573,7 +643,9 @@
   "venue": "Mechanical Systems and Signal Processing, vol. 104, p. 1-18",
   "doi": "10.1016/j.ymssp.2017.10.027",
   "hal": "https://hal.science/hal-02068516v1",
-  "pdf": "https://hal.science/hal-02068516/document"
+  "pdf": "https://hal.science/hal-02068516/document",
+  "citations": 49,
+  "openalex": "https://openalex.org/W2766139997"
  },
  {
   "id": "hal-02068532",
@@ -588,7 +660,9 @@
   "venue": "6th Noise and Vibration Emerging Methods Conference, NOVEM 2018, Ibiza",
   "doi": "",
   "hal": "https://hal.science/hal-02068532v1",
-  "pdf": "https://hal.science/hal-02068532/document"
+  "pdf": "https://hal.science/hal-02068532/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-02068522",
@@ -603,7 +677,9 @@
   "venue": "Journal of Sound and Vibration, vol. 437, p. 16-28",
   "doi": "10.1016/j.jsv.2018.09.020",
   "hal": "https://hal.science/hal-02068522v1",
-  "pdf": "https://hal.science/hal-02068522/document"
+  "pdf": "https://hal.science/hal-02068522/document",
+  "citations": 8,
+  "openalex": "https://openalex.org/W2891956775"
  },
  {
   "id": "hal-01739210",
@@ -620,7 +696,9 @@
   "venue": "Journal of Intelligent Material Systems and Structures, vol. 29, p. 1301-1314",
   "doi": "10.1177/1045389X17731232",
   "hal": "https://hal.science/hal-01739210v1",
-  "pdf": "https://hal.science/hal-01739210/document"
+  "pdf": "https://hal.science/hal-01739210/document",
+  "citations": 14,
+  "openalex": "https://openalex.org/W2759470891"
  },
  {
   "id": "hal-01739213",
@@ -636,7 +714,9 @@
   "venue": "Computers & Structures, vol. 199, p. 46 - 56",
   "doi": "10.1016/j.compstruc.2018.01.009",
   "hal": "https://hal.science/hal-01739213v1",
-  "pdf": "https://hal.science/hal-01739213/document"
+  "pdf": "https://hal.science/hal-01739213/document",
+  "citations": 12,
+  "openalex": "https://openalex.org/W2789476156"
  },
  {
   "id": "hal-02068504",
@@ -651,7 +731,9 @@
   "venue": "Mechanical Systems and Signal Processing, vol. 104, p. 487-493",
   "doi": "10.1016/j.ymssp.2017.11.026",
   "hal": "https://hal.science/hal-02068504v1",
-  "pdf": "https://hal.science/hal-02068504/document"
+  "pdf": "https://hal.science/hal-02068504/document",
+  "citations": 3,
+  "openalex": "https://openalex.org/W2769579174"
  },
  {
   "id": "hal-02068508",
@@ -666,7 +748,9 @@
   "venue": "Mechanical Systems and Signal Processing, vol. 104, p. 36-59",
   "doi": "10.1016/j.ymssp.2017.10.023",
   "hal": "https://hal.science/hal-02068508v1",
-  "pdf": "https://hal.science/hal-02068508/document"
+  "pdf": "https://hal.science/hal-02068508/document",
+  "citations": 50,
+  "openalex": "https://openalex.org/W2766481949"
  },
  {
   "id": "hal-01922760",
@@ -688,7 +772,9 @@
   "venue": "Internoise, Chicago",
   "doi": "",
   "hal": "https://hal.science/hal-01922760v1",
-  "pdf": "https://hal.science/hal-01922760/document"
+  "pdf": "https://hal.science/hal-01922760/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-02068499",
@@ -703,7 +789,9 @@
   "venue": "Mechanical Systems and Signal Processing, vol. 85, p. 730-745",
   "doi": "10.1016/j.ymssp.2016.09.011",
   "hal": "https://hal.science/hal-02068499v1",
-  "pdf": "https://hal.science/hal-02068499/document"
+  "pdf": "https://hal.science/hal-02068499/document",
+  "citations": 77,
+  "openalex": "https://openalex.org/W2523604609"
  },
  {
   "id": "hal-01739716",
@@ -720,7 +808,9 @@
   "venue": "23ème Congrès Français de Mécanique, CFM 2017, Lille",
   "doi": "",
   "hal": "https://hal.science/hal-01739716v1",
-  "pdf": "https://hal.science/hal-01739716/document"
+  "pdf": "https://hal.science/hal-01739716/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-02068535",
@@ -735,7 +825,9 @@
   "venue": "2nd International Conference on Uncertainty Quantification in Computational Sciences and Engineering, UNCECOMP 2017, Rhodes Island",
   "doi": "",
   "hal": "https://hal.science/hal-02068535v1",
-  "pdf": "https://hal.science/hal-02068535/document"
+  "pdf": "https://hal.science/hal-02068535/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-01657528",
@@ -752,7 +844,9 @@
   "venue": "Sensors and Actuators A: Physical, vol. 259, p. 68-76",
   "doi": "10.1016/j.sna.2017.03.030",
   "hal": "https://hal.science/hal-01657528v2",
-  "pdf": "https://hal.science/hal-01657528/document"
+  "pdf": "https://hal.science/hal-01657528/document",
+  "citations": 73,
+  "openalex": "https://openalex.org/W2599055742"
  },
  {
   "id": "hal-03196464",
@@ -768,7 +862,9 @@
   "venue": "4th ECCOMAS Young Investigators Conference, YIC 2017, Milan",
   "doi": "",
   "hal": "https://hal.science/hal-03196464v1",
-  "pdf": ""
+  "pdf": "",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-01739786",
@@ -784,7 +880,9 @@
   "venue": "8th ECCOMAS Thematic Conference on Smart Structures and Materials, SMART 2017, Madrid",
   "doi": "",
   "hal": "https://hal.science/hal-01739786v1",
-  "pdf": "https://hal.science/hal-01739786/document"
+  "pdf": "https://hal.science/hal-01739786/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-01739704",
@@ -801,7 +899,9 @@
   "venue": "20ème Colloque VIbrations, SHocks and NOise, VISHNO 2016, Le Mans",
   "doi": "",
   "hal": "https://hal.science/hal-01739704v2",
-  "pdf": "https://hal.science/hal-01739704/document"
+  "pdf": "https://hal.science/hal-01739704/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-02068262",
@@ -816,7 +916,9 @@
   "venue": "Mechanical Systems and Signal Processing, vol. 66-67, p. 120-136",
   "doi": "10.1016/j.ymssp.2015.05.004",
   "hal": "https://hal.science/hal-02068262v1",
-  "pdf": "https://hal.science/hal-02068262/document"
+  "pdf": "https://hal.science/hal-02068262/document",
+  "citations": 67,
+  "openalex": "https://openalex.org/W1169867013"
  },
  {
   "id": "hal-01739220",
@@ -833,7 +935,9 @@
   "venue": "SPIE Smart Structures/NDE 2016, Las Vegas, Nevada",
   "doi": "10.1117/12.2219200",
   "hal": "https://hal.science/hal-01739220v1",
-  "pdf": "https://hal.science/hal-01739220/document"
+  "pdf": "https://hal.science/hal-01739220/document",
+  "citations": 4,
+  "openalex": "https://openalex.org/W2341061703"
  },
  {
   "id": "hal-02068554",
@@ -848,7 +952,9 @@
   "venue": "13ème Congrès Français d’Acoustique joint avec le 20ème colloque Vibrations, Shocks and Noise, CFA/VISHNO 2016, Le Mans",
   "doi": "",
   "hal": "https://hal.science/hal-02068554v1",
-  "pdf": "https://hal.science/hal-02068554/document"
+  "pdf": "https://hal.science/hal-02068554/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-01739670",
@@ -865,7 +971,9 @@
   "venue": "34th IMAC Conference and Exposition on Structural Dynamics, IMAC XXXIV, Orlando",
   "doi": "",
   "hal": "https://hal.science/hal-01739670v1",
-  "pdf": "https://hal.science/hal-01739670/document"
+  "pdf": "https://hal.science/hal-01739670/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-01691082",
@@ -882,7 +990,9 @@
   "venue": "Smart Materials and Structures, vol. 25",
   "doi": "10.1088/0964-1726/25/11/115042",
   "hal": "https://hal.science/hal-01691082v1",
-  "pdf": "https://hal.science/hal-01691082/document"
+  "pdf": "https://hal.science/hal-01691082/document",
+  "citations": 53,
+  "openalex": "https://openalex.org/W2543783213"
  },
  {
   "id": "hal-02068543",
@@ -897,7 +1007,9 @@
   "venue": "13th International Conference on Motion and Vibration Control and of the 12th International Conference on Recent Advances in Structural Dynamics, MOVIC RASD 2016, Southampton",
   "doi": "10.1088/1742-6596/744/1/012191",
   "hal": "https://hal.science/hal-02068543v1",
-  "pdf": "https://hal.science/hal-02068543/document"
+  "pdf": "https://hal.science/hal-02068543/document",
+  "citations": 1,
+  "openalex": "https://openalex.org/W2525812845"
  },
  {
   "id": "hal-01739219",
@@ -914,7 +1026,9 @@
   "venue": "SPIE Smart Structures and Materials + Nondestructive Evaluation and Health Monitoring, Las Vegas",
   "doi": "10.1117/12.2218357",
   "hal": "https://hal.science/hal-01739219v1",
-  "pdf": "https://hal.science/hal-01739219/document"
+  "pdf": "https://hal.science/hal-01739219/document",
+  "citations": 2,
+  "openalex": "https://openalex.org/W2341112356"
  },
  {
   "id": "hal-01739657",
@@ -930,7 +1044,9 @@
   "venue": "7th European Congress on Computational Methods in Applied Sciences and Engineering, ECCOMAS  2016, Hersonissos",
   "doi": "",
   "hal": "https://hal.science/hal-01739657v1",
-  "pdf": "https://hal.science/hal-01739657/document"
+  "pdf": "https://hal.science/hal-01739657/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-01739575",
@@ -946,7 +1062,9 @@
   "venue": "22nd International Congress on Sound and Vibration, ICSV22, Florence",
   "doi": "",
   "hal": "https://hal.science/hal-01739575v1",
-  "pdf": "https://hal.science/hal-01739575/document"
+  "pdf": "https://hal.science/hal-01739575/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-02068558",
@@ -961,7 +1079,9 @@
   "venue": "22ème Congrès Français de Mécanique, Lyon",
   "doi": "",
   "hal": "https://hal.science/hal-02068558v1",
-  "pdf": "https://hal.science/hal-02068558/document"
+  "pdf": "https://hal.science/hal-02068558/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-01691077",
@@ -977,7 +1097,9 @@
   "venue": "Smart Materials and Structures, vol. 24",
   "doi": "10.1088/0964-1726/24/4/045018",
   "hal": "https://hal.science/hal-01691077v1",
-  "pdf": "https://hal.science/hal-01691077/document"
+  "pdf": "https://hal.science/hal-01691077/document",
+  "citations": 35,
+  "openalex": "https://openalex.org/W2046447608"
  },
  {
   "id": "hal-01691081",
@@ -993,7 +1115,9 @@
   "venue": "Smart Materials and Structures, vol. 24",
   "doi": "10.1088/0964-1726/24/11/115037",
   "hal": "https://hal.science/hal-01691081v1",
-  "pdf": "https://hal.science/hal-01691081/document"
+  "pdf": "https://hal.science/hal-01691081/document",
+  "citations": 73,
+  "openalex": "https://openalex.org/W2189974845"
  },
  {
   "id": "hal-01739217",
@@ -1009,7 +1133,9 @@
   "venue": "SPIE Smart Structures and Materials + Nondestructive Evaluation and Health Monitoring, San Diego",
   "doi": "10.1117/12.2083835",
   "hal": "https://hal.science/hal-01739217v1",
-  "pdf": "https://hal.science/hal-01739217/document"
+  "pdf": "https://hal.science/hal-01739217/document",
+  "citations": 8,
+  "openalex": "https://openalex.org/W2039183214"
  },
  {
   "id": "hal-01739562",
@@ -1025,7 +1151,9 @@
   "venue": "4èmes Journées Jeunes Chercheurs en vibrations, Acoustique et Bruit, JJCAB 2014, Lyon",
   "doi": "",
   "hal": "https://hal.science/hal-01739562v1",
-  "pdf": "https://hal.science/hal-01739562/document"
+  "pdf": "https://hal.science/hal-01739562/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-02121068",
@@ -1041,7 +1169,9 @@
   "venue": "Flinovia - Flow Induced Noise and Vibration Issues and Aspects",
   "doi": "",
   "hal": "https://hal.science/hal-02121068v1",
-  "pdf": "https://hal.science/hal-02121068/document"
+  "pdf": "https://hal.science/hal-02121068/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-02068189",
@@ -1055,7 +1185,9 @@
   "venue": "Journal of Sound and Vibration, vol. 333, p. 5693-5707",
   "doi": "10.1016/j.jsv.2014.06.027",
   "hal": "https://hal.science/hal-02068189v1",
-  "pdf": "https://hal.science/hal-02068189/document"
+  "pdf": "https://hal.science/hal-02068189/document",
+  "citations": 84,
+  "openalex": "https://openalex.org/W2021572334"
  },
  {
   "id": "hal-01739546",
@@ -1071,7 +1203,9 @@
   "venue": "26th International Conference on Noise and Vibration Engineering, ISMA2014, Leuven",
   "doi": "",
   "hal": "https://hal.science/hal-01739546v1",
-  "pdf": "https://hal.science/hal-01739546/document"
+  "pdf": "https://hal.science/hal-01739546/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-02305526",
@@ -1087,7 +1221,9 @@
   "venue": "19ème Colloque Vibrations, Chocs et Bruit, VCB 2014/19th Symposium Vibrations, Shocks and Noise, VISHNO 2014, Aix-en-Provence",
   "doi": "",
   "hal": "https://hal.science/hal-02305526v1",
-  "pdf": ""
+  "pdf": "",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-03179181",
@@ -1103,7 +1239,9 @@
   "venue": "Flow Induced Noise and Vibration Issues and Aspects, Flinovia, Roma",
   "doi": "",
   "hal": "https://hal.science/hal-03179181v1",
-  "pdf": ""
+  "pdf": "",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-02068565",
@@ -1118,7 +1256,9 @@
   "venue": "11th International Conference on Vibration Problems, Lisbon",
   "doi": "",
   "hal": "https://hal.science/hal-02068565v1",
-  "pdf": "https://hal.science/hal-02068565/document"
+  "pdf": "https://hal.science/hal-02068565/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-02068563",
@@ -1133,7 +1273,9 @@
   "venue": "Internoise 2013, Innsbruck",
   "doi": "",
   "hal": "https://hal.science/hal-02068563v1",
-  "pdf": "https://hal.science/hal-02068563/document"
+  "pdf": "https://hal.science/hal-02068563/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-02305511",
@@ -1148,7 +1290,9 @@
   "venue": "21ème Congrès Français de Mécanique, Bordeaux",
   "doi": "",
   "hal": "https://hal.science/hal-02305511v1",
-  "pdf": "https://hal.science/hal-02305511/document"
+  "pdf": "https://hal.science/hal-02305511/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-01668987",
@@ -1164,7 +1308,9 @@
   "venue": "Journal of Sound and Vibration, vol. 331, p. 3824-3843",
   "doi": "10.1016/j.jsv.2012.04.010",
   "hal": "https://hal.science/hal-01668987v1",
-  "pdf": "https://hal.science/hal-01668987/document"
+  "pdf": "https://hal.science/hal-01668987/document",
+  "citations": 37,
+  "openalex": "https://openalex.org/W1969732232"
  },
  {
   "id": "hal-00744504",
@@ -1180,7 +1326,9 @@
   "venue": "Journal of Vibration and Acoustics, vol. 134, p. 051011",
   "doi": "10.1115/1.4005838",
   "hal": "https://hal.science/hal-00744504v1",
-  "pdf": "https://hal.science/hal-00744504/document"
+  "pdf": "https://hal.science/hal-00744504/document",
+  "citations": 24,
+  "openalex": "https://openalex.org/W2075526091"
  },
  {
   "id": "hal-00744519",
@@ -1196,7 +1344,9 @@
   "venue": "INTERNOISE 2011, Osaka",
   "doi": "",
   "hal": "https://hal.science/hal-00744519v1",
-  "pdf": "https://hal.science/hal-00744519/document"
+  "pdf": "https://hal.science/hal-00744519/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-01668981",
@@ -1213,7 +1363,9 @@
   "venue": "Computers & Structures, vol. 88, p. 728-736",
   "doi": "10.1016/j.compstruc.2010.02.010",
   "hal": "https://hal.science/hal-01668981v1",
-  "pdf": "https://hal.science/hal-01668981/document"
+  "pdf": "https://hal.science/hal-01668981/document",
+  "citations": 32,
+  "openalex": "https://openalex.org/W1999140571"
  },
  {
   "id": "hal-01668973",
@@ -1229,7 +1381,9 @@
   "venue": "Journal of Sound and Vibration, vol. 329, p. 3691 - 3708",
   "doi": "10.1016/j.jsv.2010.03.032",
   "hal": "https://hal.science/hal-01668973v1",
-  "pdf": "https://hal.science/hal-01668973/document"
+  "pdf": "https://hal.science/hal-01668973/document",
+  "citations": 44,
+  "openalex": "https://openalex.org/W1997302810"
  },
  {
   "id": "hal-00538357",
@@ -1246,7 +1400,9 @@
   "venue": "10ème Congrès Français d'Acoustique, Lyon",
   "doi": "",
   "hal": "https://hal.science/hal-00538357v1",
-  "pdf": "https://hal.science/hal-00538357/document"
+  "pdf": "https://hal.science/hal-00538357/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-00534639",
@@ -1262,7 +1418,9 @@
   "venue": "10ème Congrès Français d'Acoustique, Lyon",
   "doi": "",
   "hal": "https://hal.science/hal-00534639v1",
-  "pdf": "https://hal.science/hal-00534639/document"
+  "pdf": "https://hal.science/hal-00534639/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "tel-00777773",
@@ -1276,7 +1434,9 @@
   "venue": "PhD thesis",
   "doi": "",
   "hal": "https://theses.hal.science/tel-00777773v1",
-  "pdf": "https://theses.hal.science/tel-00777773/document"
+  "pdf": "https://theses.hal.science/tel-00777773/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-00415096",
@@ -1292,7 +1452,9 @@
   "venue": "NOVEM 2009, Oxford",
   "doi": "",
   "hal": "https://hal.science/hal-00415096v1",
-  "pdf": "https://hal.science/hal-00415096/document"
+  "pdf": "https://hal.science/hal-00415096/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-00416364",
@@ -1309,7 +1471,9 @@
   "venue": "16th International Congress on Sound and Vibration (ICSV16), Cracovie",
   "doi": "",
   "hal": "https://hal.science/hal-00416364v1",
-  "pdf": "https://hal.science/hal-00416364/document"
+  "pdf": "https://hal.science/hal-00416364/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-03179340",
@@ -1325,7 +1489,9 @@
   "venue": "Acoustics' 08, Paris",
   "doi": "",
   "hal": "https://hal.science/hal-03179340v1",
-  "pdf": "https://hal.science/hal-03179340/document"
+  "pdf": "https://hal.science/hal-03179340/document",
+  "citations": null,
+  "openalex": ""
  },
  {
   "id": "hal-00414928",
@@ -1341,6 +1507,8 @@
   "venue": "Journées SFA « Acoustique et Applications navales », Marseille",
   "doi": "",
   "hal": "https://hal.science/hal-00414928v1",
-  "pdf": ""
+  "pdf": "",
+  "citations": null,
+  "openalex": ""
  }
 ]

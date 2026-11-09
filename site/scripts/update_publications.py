@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Fetch publications from HAL and write them to data/publications.json.
 
+Citation counts are added from OpenAlex for publications that have a DOI.
+
 Usage (from the `site/` directory):
 
     python3 scripts/update_publications.py
@@ -17,6 +19,8 @@ import urllib.request
 from pathlib import Path
 
 HAL_ID = "mathieu-aucejo"
+USER_AGENT = "calepin-site-builder"
+OPENALEX_BATCH = 50
 OUTPUT = Path(__file__).resolve().parent.parent / "data" / "publications.json"
 
 FIELDS = [
@@ -77,6 +81,36 @@ def venue(doc: dict) -> str:
     return ""
 
 
+def fetch_json(url: str):
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(request, timeout=30) as response:
+        return json.load(response)
+
+
+def fetch_citations(dois: list[str]) -> dict[str, tuple[int, str]]:
+    """Return {doi: (cited_by_count, openalex_url)} for the given DOIs."""
+    found: dict[str, tuple[int, str]] = {}
+    for start in range(0, len(dois), OPENALEX_BATCH):
+        batch = dois[start : start + OPENALEX_BATCH]
+        query = urllib.parse.urlencode(
+            {
+                "filter": "doi:" + "|".join(batch),
+                "select": "id,doi,cited_by_count",
+                "per-page": OPENALEX_BATCH,
+            }
+        )
+        try:
+            results = fetch_json(f"https://api.openalex.org/works?{query}")["results"]
+        except Exception as exc:  # network or API error: keep going without citations
+            print(f"Warning: OpenAlex request failed ({exc})")
+            continue
+        for work in results:
+            doi = (work.get("doi") or "").lower().removeprefix("https://doi.org/")
+            if doi:
+                found[doi] = (int(work.get("cited_by_count") or 0), work.get("id", ""))
+    return found
+
+
 def main() -> None:
     query = urllib.parse.urlencode(
         {
@@ -87,10 +121,7 @@ def main() -> None:
             "wt": "json",
         }
     )
-    url = f"https://api.archives-ouvertes.fr/search/?{query}"
-    request = urllib.request.Request(url, headers={"User-Agent": "calepin-site-builder"})
-    with urllib.request.urlopen(request, timeout=30) as response:
-        docs = json.load(response)["response"]["docs"]
+    docs = fetch_json(f"https://api.archives-ouvertes.fr/search/?{query}")["response"]["docs"]
 
     entries = []
     for doc in docs:
@@ -112,10 +143,18 @@ def main() -> None:
             }
         )
 
+    dois = sorted({e["doi"].strip().lower() for e in entries if e["doi"]})
+    citations = fetch_citations(dois)
+    for entry in entries:
+        count, openalex = citations.get(entry["doi"].strip().lower(), (None, ""))
+        entry["citations"] = count
+        entry["openalex"] = openalex
+
     entries.sort(key=lambda e: (-int(e["year"] or 0), e["title"].lower()))
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(entries, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"Wrote {len(entries)} publications to {OUTPUT}")
+    print(f"Citation counts found for {len(citations)}/{len(dois)} DOIs (OpenAlex)")
 
 
 if __name__ == "__main__":
