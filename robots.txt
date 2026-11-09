@@ -1,1 +1,3 @@
+User-agent: *
+Allow: /
 Sitemap: https://maucejo.github.io/sitemap.xml
