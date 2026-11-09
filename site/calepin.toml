@@ -5,7 +5,7 @@
 #   python3 scripts/update_publications.py  # refresh the HAL publication list
 
 title = "Mathieu Aucejo"
-description = "Full professor of Structural Mechanics and Acoustics at Le Cnam (LMSSC), Paris. Inverse problems, vibration control and vibro-acoustics."
+description = "Full professor of Structural Mechanics and Acoustics at Le Cnam (MACS), Paris. Inverse problems, vibration control and vibro-acoustics."
 base-url = "https://maucejo.github.io"
 
 theme = "themes/aucejo"
@@ -35,7 +35,7 @@ enabled = false
 # ---------------------------------------------------------------------------
 [store]
 name = "Mathieu Aucejo"
-role = "Full Professor · Structural Mechanics & Acoustics"
+role = ["Full Professor", "Structural Mechanics & Acoustics"]
 affiliation = "MACS · Conservatoire national des arts et métiers"
 affiliation_url = "https://www.macs.cnam.fr/"
 lab = "MACS"

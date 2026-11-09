@@ -11,7 +11,7 @@
         <div class="mx-hero-bg" aria-hidden="true"></div>
         <div class="mx-container mx-hero-grid">
             <div class="mx-hero-text">
-                {% if store.role %}<p class="mx-kicker">{{ store.role }}</p>{% endif %}
+                {% if store.role %}<p class="mx-kicker mx-hero-role">{% for item in store.role %}<span>{{ item }}</span>{% endfor %}</p>{% endif %}
                 <h1 id="mx-hero-title" class="mx-hero-title">{{ store.name | default(site.title) }}</h1>
                 {% if store.tagline %}<p class="mx-hero-lead">{{ store.tagline }}</p>{% endif %}
                 <p class="mx-hero-meta">
