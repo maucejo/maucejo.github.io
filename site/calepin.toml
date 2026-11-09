@@ -36,12 +36,14 @@ enabled = false
 [store]
 name = "Mathieu Aucejo"
 role = "Full Professor · Structural Mechanics & Acoustics"
-affiliation = "LMSSC · Conservatoire national des arts et métiers"
-affiliation_url = "https://www.lmssc.cnam.fr/"
+affiliation = "MACS · Conservatoire national des arts et métiers"
+affiliation_url = "https://www.macs.cnam.fr/"
+lab = "MACS"
+institution = "Conservatoire national des arts et métiers"
 location = "Paris, France"
 email = "mathieu.aucejo@lecnam.net"
 avatar = "assets/images/avatar.jpg"
-tagline = "I develop methods to identify, model and control vibrations and sound in mechanical structures — from inverse problems to open-source tools for research and teaching."
+tagline = "I develop methods to identify, model and control vibrations and sound in mechanical structures, alongside open-source tools for research and education."
 copyright = "© 2026 Mathieu Aucejo"
 
 # ---------------------------------------------------------------------------

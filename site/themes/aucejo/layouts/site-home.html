@@ -15,7 +15,8 @@
                 <h1 id="mx-hero-title" class="mx-hero-title">{{ store.name | default(site.title) }}</h1>
                 {% if store.tagline %}<p class="mx-hero-lead">{{ store.tagline }}</p>{% endif %}
                 <p class="mx-hero-meta">
-                    {% if store.affiliation %}<a href="{{ store.affiliation_url | default('#') }}" target="_blank" rel="noopener">{{ store.affiliation }}</a>{% endif %}
+                    {% if store.lab %}<a href="{{ store.affiliation_url | default('#') }}" target="_blank" rel="noopener">{{ store.lab }}</a>{% endif %}
+                    {% if store.institution %}<span>{{ store.institution }}</span>{% endif %}
                     {% if store.location %}<span>{{ store.location }}</span>{% endif %}
                 </p>
                 <div class="mx-hero-actions">

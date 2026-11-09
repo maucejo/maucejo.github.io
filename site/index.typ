@@ -18,28 +18,28 @@
 #section(kicker: "About", [Welcome!])[
   #lead[
     I am a full professor of Structural Mechanics and Acoustics at the
-    Laboratoire de Mécanique des Structures et des Systèmes Couplés
-    (#link-out("https://www.lmssc.cnam.fr/")[LMSSC]) of
+    Laboratoire de Mécanique, Acoustique, Contrôle et Calcul Scientifique
+    (#link-out("https://www.macs.cnam.fr/")[MACS]) of
     #link-out("https://www.cnam.fr/")[Le Cnam] in Paris.
   ]
 
   I am an enthusiastic and avid user of the
   Typst #logo("assets/images/typst_logo.png", "Typst") markup language and the
-  Julia #logo("assets/images/julia.svg", "Julia") programming language — and I
+  Julia #logo("assets/images/julia.svg", "Julia") programming language. I
   turn a good part of my research and teaching material into open-source tools.
 ]
 
 #section(kicker: "Research", [Research interests])[
   #cards(cols: 3,
     card([Inverse problems], tag: "Identification", href: "research.html#inverse-problems")[
-      Estimating unknown excitation sources and model parameters from vibration
-      measurements, with Bayesian and sparse regularisation methods.
+      Estimating unknown excitation sources from vibration
+      measurements with Bayesian methods.
     ],
     card([Vibration control], tag: "Control", href: "research.html#vibration-control")[
       Reducing structural vibrations and noise through passive and active
       strategies.
     ],
-    card([Vibro-acoustic modelling], tag: "Modelling", href: "research.html#vibro-acoustics")[
+    card([Vibro-acoustic modeling], tag: "Modelling", href: "research.html#vibro-acoustics")[
       Predicting how structures vibrate and radiate sound, from analytical
       models to numerical simulation.
     ],
@@ -48,7 +48,7 @@
 
 #section(kicker: "Publications", [Recent work])[
   #pub-list(category: "article", limit: 4)
-  #button("publications.html")[All publications →]
+  #button("publications.html")[All publications #sym.arrow]
 ]
 
 #section(kicker: "Background", [Education])[
