@@ -1,0 +1,107 @@
+# Mathieu Aucejo — personal academic website, built with Calepin.
+#
+#   calepin compile .                       # build into _site/
+#   calepin watch . _site --serve --open    # live preview
+#   python3 scripts/update_publications.py  # refresh the HAL publication list
+
+title = "Mathieu Aucejo"
+description = "Full professor of Structural Mechanics and Acoustics at Le Cnam (LMSSC), Paris. Inverse problems, vibration control and vibro-acoustics."
+base-url = "https://maucejo.github.io"
+
+theme = "themes/aucejo"
+logo = "assets/images/logo.svg"
+logo-alt = "Mathieu Aucejo"
+favicon = "assets/images/logo.svg"
+image = "assets/images/avatar.jpg"
+theme-color = "#11304C"
+
+output-dir = "_site"
+asset-dir = "_calepin"   # GitHub Pages does not serve dot-directories
+pdf = false
+typ = false
+
+[static]
+include = ["assets/**"]
+
+# Helper modules and data are imported by pages, not published as pages.
+[pages]
+exclude = ["_lib/**", "scripts/**", "_site/**"]
+
+[toc]
+enabled = false
+
+# ---------------------------------------------------------------------------
+# Values available to theme templates as {{ store.* }}
+# ---------------------------------------------------------------------------
+[store]
+name = "Mathieu Aucejo"
+role = "Full Professor · Structural Mechanics & Acoustics"
+affiliation = "LMSSC · Conservatoire national des arts et métiers"
+affiliation_url = "https://www.lmssc.cnam.fr/"
+location = "Paris, France"
+email = "mathieu.aucejo@lecnam.net"
+avatar = "assets/images/avatar.jpg"
+tagline = "I develop methods to identify, model and control vibrations and sound in mechanical structures — from inverse problems to open-source tools for research and teaching."
+copyright = "© 2026 Mathieu Aucejo"
+
+# ---------------------------------------------------------------------------
+# Navigation
+# ---------------------------------------------------------------------------
+[[menus.main]]
+target = "research.typ"
+label = "Research"
+weight = 10
+
+[[menus.main]]
+target = "publications.typ"
+label = "Publications"
+weight = 20
+
+[[menus.main]]
+target = "software.typ"
+label = "Software"
+weight = 30
+
+[[menus.main]]
+target = "teaching.typ"
+label = "Teaching"
+weight = 40
+
+[[menus.social]]
+target = "https://github.com/maucejo"
+label = "{icon:github}"
+aria-label = "GitHub"
+
+[[menus.social]]
+target = "https://cv.hal.science/mathieu-aucejo"
+label = "{icon:academicons:hal}"
+aria-label = "HAL"
+
+[[menus.social]]
+target = "https://scholar.google.fr/citations?user=SBYsV9QAAAAJ&hl"
+label = "{icon:academicons:google-scholar}"
+aria-label = "Google Scholar"
+
+[[menus.social]]
+target = "https://orcid.org/0000-0002-4255-0129"
+label = "{icon:academicons:orcid}"
+aria-label = "ORCID"
+
+[[menus.social]]
+target = "https://www.researchgate.net/profile/Mathieu-Aucejo"
+label = "{icon:academicons:researchgate}"
+aria-label = "ResearchGate"
+
+[[menus.social]]
+target = "https://www.linkedin.com/in/maucejo/"
+label = "{icon:linkedin}"
+aria-label = "LinkedIn"
+
+[[menus.social]]
+target = "https://piaille.fr/@maucejo"
+label = "{icon:simple-icons:mastodon}"
+aria-label = "Mastodon"
+
+[[footer.item]]
+target = "https://vincentarelbundock.github.io/calepin"
+label = "Made with Calepin"

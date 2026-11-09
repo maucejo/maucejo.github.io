@@ -1,0 +1,40 @@
+{# Landing page: hero built from [store] values in calepin.toml, then the
+   page body written in index.typ. Select it with
+   #metadata((layout: "layouts/site-home.html")) <website-metadata> #}
+{% set calepin_theme_storage_key = "aucejo-theme" %}
+{% set calepin_theme_param = "" %}
+{% include "partials/site-head.html" %}
+{{ doc.body_open }}
+    <a class="mx-skip" href="#content">Skip to content</a>
+{% include "partials/site-nav.html" %}
+    <section class="mx-hero" aria-labelledby="mx-hero-title">
+        <div class="mx-hero-bg" aria-hidden="true"></div>
+        <div class="mx-container mx-hero-grid">
+            <div class="mx-hero-text">
+                {% if store.role %}<p class="mx-kicker">{{ store.role }}</p>{% endif %}
+                <h1 id="mx-hero-title" class="mx-hero-title">{{ store.name | default(site.title) }}</h1>
+                {% if store.tagline %}<p class="mx-hero-lead">{{ store.tagline }}</p>{% endif %}
+                <p class="mx-hero-meta">
+                    {% if store.affiliation %}<a href="{{ store.affiliation_url | default('#') }}" target="_blank" rel="noopener">{{ store.affiliation }}</a>{% endif %}
+                    {% if store.location %}<span>{{ store.location }}</span>{% endif %}
+                </p>
+                <div class="mx-hero-actions">
+                    {% for item in site.menus.main %}{% if loop.first %}<a class="mx-btn mx-btn-primary" href="{{ item.href }}">Explore my research <span aria-hidden="true">→</span></a>{% endif %}{% endfor %}
+                    {% if store.email %}<a class="mx-btn mx-btn-ghost" href="mailto:{{ store.email }}">Get in touch</a>{% endif %}
+                </div>
+                {% include "partials/social-links.html" %}
+            </div>
+            {% if store.avatar %}
+            <figure class="mx-hero-portrait">
+                <img src="{{ store.avatar }}" alt="Portrait of {{ store.name }}" width="480" height="480" fetchpriority="high">
+            </figure>
+            {% endif %}
+        </div>
+    </section>
+    <main id="content" class="mx-container mx-home calepin-content" data-pagefind-body>
+        {{ doc.body }}
+    </main>
+{% include "partials/site-footer.html" %}
+{% include "partials/site-search.html" %}
+{% include "partials/theme-scripts.html" %}
+{{ doc.body_close }}

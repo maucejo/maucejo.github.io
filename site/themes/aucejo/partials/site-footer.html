@@ -1,0 +1,15 @@
+    <footer class="calepin-site-footer mx-footer" aria-label="Site footer">
+        <div class="mx-container mx-footer-inner">
+            <div class="mx-footer-id">
+                <p class="mx-footer-name">{{ store.name | default(site.title) }}</p>
+                {% if store.affiliation %}<p class="mx-footer-meta">{{ store.affiliation }}{% if store.location %} · {{ store.location }}{% endif %}</p>{% endif %}
+            </div>
+            {% include "partials/social-links.html" %}
+        </div>
+        <div class="mx-container mx-footer-bottom">
+            <span>{{ store.copyright | default("") }}</span>
+            {% for item in site.menus.footer | default([]) %}
+            {% if item.href %}<a href="{{ item.href }}">{{ item.label_html }}</a>{% else %}<span>{{ item.label_html }}</span>{% endif %}
+            {% endfor %}
+        </div>
+    </footer>

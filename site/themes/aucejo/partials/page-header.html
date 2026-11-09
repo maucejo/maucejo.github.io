@@ -1,0 +1,10 @@
+{# Title band shown on inner pages: title and description come from the
+   page metadata block `#metadata((title: ..., description: ...)) <website-metadata>`. #}
+{% if site.page_title %}
+    <header class="mx-page-header">
+        <div class="mx-container">
+            <h1 class="mx-page-title">{{ site.page_title }}</h1>
+            {% if site.page_description %}<p class="mx-page-lead">{{ site.page_description }}</p>{% endif %}
+        </div>
+    </header>
+{% endif %}

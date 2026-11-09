@@ -1,0 +1,4 @@
+# Custom theme for maucejo.github.io.
+# Inherits the bundled "academic" theme (Pico CSS base, theme toggle,
+# copy-code, TOC, search) and overrides layouts, partials and styles.
+extends = "academic"

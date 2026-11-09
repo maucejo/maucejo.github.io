@@ -1,0 +1,1346 @@
+[
+ {
+  "id": "hal-05798703",
+  "category": "article",
+  "type": "ART",
+  "title": "An adaptive frequency-domain Kalman filter for source identification in structural dynamics",
+  "authors": [
+   "Mathieu Aucejo",
+   "O. de Smet"
+  ],
+  "year": 2027,
+  "venue": "Journal of Sound and Vibration, vol. 647, p. 120170",
+  "doi": "10.1016/j.jsv.2026.120170",
+  "hal": "https://hal.science/hal-05798703v1",
+  "pdf": "https://hal.science/hal-05798703/document"
+ },
+ {
+  "id": "hal-05671132",
+  "category": "article",
+  "type": "ART",
+  "title": "Evaluation of markerless motion capture to compute center of mass trajectory in artistic gymnastics",
+  "authors": [
+   "Suzon Pucheu",
+   "Diane Haering",
+   "Mathieu Aucejo",
+   "Charles Pontonnier"
+  ],
+  "year": 2026,
+  "venue": "Multidisciplinary Biomechanics Journal, vol. 51st congress of the Société...",
+  "doi": "10.46298/mbj.19217",
+  "hal": "https://inria.hal.science/hal-05671132v2",
+  "pdf": "https://inria.hal.science/hal-05671132/document"
+ },
+ {
+  "id": "hal-05038580",
+  "category": "article",
+  "type": "ART",
+  "title": "A frequency-domain sequential Bayesian filter for sparse and broadband force estimation problems",
+  "authors": [
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2025,
+  "venue": "Mechanical Systems and Signal Processing, vol. 232, p. 112729",
+  "doi": "10.1016/j.ymssp.2025.112729",
+  "hal": "https://hal.science/hal-05038580v2",
+  "pdf": "https://hal.science/hal-05038580/document"
+ },
+ {
+  "id": "hal-05053743",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Filtrage de Kalman pour la reconstruction espace-fréquence de sources mécaniques",
+  "authors": [
+   "Mathieu Aucejo"
+  ],
+  "year": 2025,
+  "venue": "CFA 2025 - 17e Congrès Français d'Acoustique, Paris",
+  "doi": "",
+  "hal": "https://hal.science/hal-05053743v1",
+  "pdf": "https://hal.science/hal-05053743/document"
+ },
+ {
+  "id": "hal-05191749",
+  "category": "article",
+  "type": "ART",
+  "title": "Prediction of impactor acceleration when impacting a gymnastics mat using neural networks",
+  "authors": [
+   "Suzon Pucheu",
+   "Diane Haering",
+   "Mathieu Aucejo",
+   "Charles Pontonnier"
+  ],
+  "year": 2025,
+  "venue": "Multidisciplinary Biomechanics Journal, vol. 2, p. 485–487",
+  "doi": "10.46298/mbj.16196",
+  "hal": "https://hal.science/hal-05191749v2",
+  "pdf": "https://hal.science/hal-05191749/document"
+ },
+ {
+  "id": "hal-04181997",
+  "category": "article",
+  "type": "ART",
+  "title": "A hybrid sub-structuring method for prediction of air inlet sound transmission",
+  "authors": [
+   "Julien Puig",
+   "Mathieu Aucejo",
+   "Jean-François Deü",
+   "Walid Larbi",
+   "P. Macquart"
+  ],
+  "year": 2024,
+  "venue": "Journal of Sound and Vibration, vol. 569, p. 117994",
+  "doi": "10.1016/j.jsv.2023.117994",
+  "hal": "https://hal.science/hal-04181997v1",
+  "pdf": "https://hal.science/hal-04181997/document"
+ },
+ {
+  "id": "hal-04682354",
+  "category": "conference",
+  "type": "COMM",
+  "title": "A Kalman filter-based strategy for space-frequency force reconstruction",
+  "authors": [
+   "Mathieu Aucejo"
+  ],
+  "year": 2024,
+  "venue": "Internoise 2024, Nantes",
+  "doi": "",
+  "hal": "https://hal.science/hal-04682354v1",
+  "pdf": "https://hal.science/hal-04682354/document"
+ },
+ {
+  "id": "hal-04682371",
+  "category": "conference",
+  "type": "COMM",
+  "title": "A numerical model calibrated by in-situ measurement for predicting the underwater radiated noise of an azimuth thruster structure of a passenger ship",
+  "authors": [
+   "Benoît Dasi",
+   "Mathieu Aucejo",
+   "Sylvain Branchereau",
+   "Guillaume Grouard"
+  ],
+  "year": 2024,
+  "venue": "Internoise 2024, Nantes",
+  "doi": "",
+  "hal": "https://hal.science/hal-04682371v1",
+  "pdf": "https://hal.science/hal-04682371/document"
+ },
+ {
+  "id": "hal-04826671",
+  "category": "conference",
+  "type": "COMM",
+  "title": "First analysis of gymnastics landing load prediction using LSTM neural network based on acceleration data",
+  "authors": [
+   "Suzon Pucheu",
+   "Diane Haering",
+   "Mathieu Aucejo",
+   "Charles Pontonnier"
+  ],
+  "year": 2024,
+  "venue": "2024 - Sport Physics conference, Rennes",
+  "doi": "",
+  "hal": "https://inria.hal.science/hal-04826671v1",
+  "pdf": "https://inria.hal.science/hal-04826671/document"
+ },
+ {
+  "id": "hal-04853856",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Vibration Damping Using Analogous Piezoelectric Networks: 10 Years of Research at Cnam and Georgia Tech",
+  "authors": [
+   "Boris Lossouarn",
+   "Alan Luo",
+   "Robin Darleux",
+   "Mathieu Aucejo",
+   "Kenneth A. Cunefare",
+   "Alper Erturk",
+   "Jean-François Deü"
+  ],
+  "year": 2024,
+  "venue": "33rd International Conference on Adaptive Structures and Technologies, ICAST 2024, Atlanta",
+  "doi": "",
+  "hal": "https://hal.science/hal-04853856v1",
+  "pdf": ""
+ },
+ {
+  "id": "hal-04210321",
+  "category": "conference",
+  "type": "COMM",
+  "title": "A sparse Frequency-domain Bayesian filter for broadband source identification",
+  "authors": [
+   "Mathieu Aucejo"
+  ],
+  "year": 2023,
+  "venue": "Forum Acusticum 2023, Turin (IT)",
+  "doi": "10.61782/fa.2023.0035",
+  "hal": "https://hal.science/hal-04210321v1",
+  "pdf": "https://hal.science/hal-04210321/document"
+ },
+ {
+  "id": "hal-04221352",
+  "category": "article",
+  "type": "ART",
+  "title": "Performances of a family of new sequential Bayesian filters for input estimation",
+  "authors": [
+   "Julian Ghibaudo",
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2023,
+  "venue": "Mechanical Systems and Signal Processing, vol. 204, p. 110794",
+  "doi": "10.1016/j.ymssp.2023.110794",
+  "hal": "https://hal.science/hal-04221352v1",
+  "pdf": "https://hal.science/hal-04221352/document"
+ },
+ {
+  "id": "hal-03557526",
+  "category": "article",
+  "type": "ART",
+  "title": "A data-driven metamodel-based approach for point force localization",
+  "authors": [
+   "Mathieu Aucejo"
+  ],
+  "year": 2022,
+  "venue": "Mechanical Systems and Signal Processing, vol. 171, p. 108881",
+  "doi": "10.1016/j.ymssp.2022.108881",
+  "hal": "https://hal.science/hal-03557526v1",
+  "pdf": "https://hal.science/hal-03557526/document"
+ },
+ {
+  "id": "hal-03700301",
+  "category": "article",
+  "type": "ART",
+  "title": "A Sparse adaptive Bayesian filter for input estimation problems",
+  "authors": [
+   "Julian Ghibaudo",
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2022,
+  "venue": "Mechanical Systems and Signal Processing",
+  "doi": "10.1016/j.ymssp.2022.109416",
+  "hal": "https://hal.science/hal-03700301v1",
+  "pdf": "https://hal.science/hal-03700301/document"
+ },
+ {
+  "id": "hal-03778380",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Performances of a family of new Kalman filters for input estimations",
+  "authors": [
+   "Julian Ghibaudo",
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2022,
+  "venue": "ISMA 2022, Leuven",
+  "doi": "",
+  "hal": "https://hal.science/hal-03778380v1",
+  "pdf": "https://hal.science/hal-03778380/document"
+ },
+ {
+  "id": "hal-03865387",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Performances of two sparse Bayesian filters for force reconstruction",
+  "authors": [
+   "Julian Ghibaudo",
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2022,
+  "venue": "10th Conference on Inverse Problems, Control and Shape Optimization : PICOF’22, Caen",
+  "doi": "",
+  "hal": "https://hal.science/hal-03865387v1",
+  "pdf": ""
+ },
+ {
+  "id": "hal-03768674",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Une nouvelle méthode d'identification de force basée sur une vision bayésienne unifiée du filtrage de type Kalman",
+  "authors": [
+   "Julian Ghibaudo",
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2022,
+  "venue": "Congrès Français de Mécanique 2022, Nantes",
+  "doi": "",
+  "hal": "https://hal.science/hal-03768674v1",
+  "pdf": "https://hal.science/hal-03768674/document"
+ },
+ {
+  "id": "hal-03848360",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Étude et modélisation numérique de la transmission acoustique des entrées d'air de fenêtres",
+  "authors": [
+   "Julien Puig",
+   "Jean-François Deü",
+   "Walid Larbi",
+   "Mathieu Aucejo"
+  ],
+  "year": 2022,
+  "venue": "16ème Congrès Français d'Acoustique, CFA2022, Marseille",
+  "doi": "",
+  "hal": "https://hal.science/hal-03848360v1",
+  "pdf": ""
+ },
+ {
+  "id": "hal-03149400",
+  "category": "article",
+  "type": "ART",
+  "title": "A generalized multiplicative regularization for input estimation",
+  "authors": [
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2021,
+  "venue": "Mechanical Systems and Signal Processing, vol. 157, p. 107637",
+  "doi": "10.1016/j.ymssp.2021.107637",
+  "hal": "https://hal.science/hal-03149400v1",
+  "pdf": "https://hal.science/hal-03149400/document"
+ },
+ {
+  "id": "hal-03505178",
+  "category": "conference",
+  "type": "COMM",
+  "title": "A unified Bayesian formulation for the identification of force sources",
+  "authors": [
+   "Julian Ghibaudo",
+   "Mathieu Aucejo"
+  ],
+  "year": 2021,
+  "venue": "16th International Conference Dynamical Systems - Theory and Applications, Virtual event",
+  "doi": "",
+  "hal": "https://hal.science/hal-03505178v1",
+  "pdf": "https://hal.science/hal-03505178/document"
+ },
+ {
+  "id": "hal-03225940",
+  "category": "article",
+  "type": "ART",
+  "title": "Numerical analyses of the sound transmission at low frequencies of a calibrated domestic wooden window",
+  "authors": [
+   "Chaïma Soussi",
+   "Mathieu Aucejo",
+   "Walid Larbi",
+   "Jean-François Deü"
+  ],
+  "year": 2021,
+  "venue": "Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science, vol. 235, p. 2637-2650",
+  "doi": "10.1177/09544062211003621",
+  "hal": "https://hal.science/hal-03225940v1",
+  "pdf": "https://hal.science/hal-03225940/document"
+ },
+ {
+  "id": "hal-03200124",
+  "category": "article",
+  "type": "ART",
+  "title": "Numerical analyses of the sound transmission at low frequencies of a calibrated Insulating Glazing Unit",
+  "authors": [
+   "Chaïma Soussi",
+   "Mathieu Aucejo",
+   "Walid Larbi",
+   "Jean-François Deü"
+  ],
+  "year": 2021,
+  "venue": "Applied Acoustics, vol. 179, p. 108065",
+  "doi": "10.1016/j.apacoust.2021.108065",
+  "hal": "https://hal.science/hal-03200124v1",
+  "pdf": "https://hal.science/hal-03200124/document"
+ },
+ {
+  "id": "hal-03430385",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Numerical simulation of air inlet sound insulation",
+  "authors": [
+   "Julien Puig",
+   "Jean-François Deü",
+   "Walid Larbi",
+   "Mathieu Aucejo"
+  ],
+  "year": 2021,
+  "venue": "Inter Noise 2021, Washington DC (virtual)",
+  "doi": "10.3397/IN-2021-1976",
+  "hal": "https://hal.science/hal-03430385v1",
+  "pdf": "https://hal.science/hal-03430385/document"
+ },
+ {
+  "id": "hal-04050184",
+  "category": "conference",
+  "type": "POSTER",
+  "title": "Étude et modélisation numérique de la transmission acoustique des entrées d'air de fenêtres",
+  "authors": [
+   "Julien Puig",
+   "Jean-François Deü",
+   "Mathieu Aucejo",
+   "Walid Larbi"
+  ],
+  "year": 2021,
+  "venue": "11ème Journées Jeunes Chercheuses et Chercheurs Acoustique, vibrations et Bruit, JJCAB2021, Compiègne",
+  "doi": "",
+  "hal": "https://cnam.hal.science/hal-04050184v1",
+  "pdf": "https://cnam.hal.science/hal-04050184/document"
+ },
+ {
+  "id": "hal-02551104",
+  "category": "article",
+  "type": "ART",
+  "title": "A novel algorithm for solving multiplicative mixed-norm regularization problems",
+  "authors": [
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2020,
+  "venue": "Mechanical Systems and Signal Processing, vol. 140, p. 106887",
+  "doi": "10.1016/j.ymssp.2020.106887",
+  "hal": "https://hal.science/hal-02551104v1",
+  "pdf": "https://hal.science/hal-02551104/document"
+ },
+ {
+  "id": "hal-02424030",
+  "category": "article",
+  "type": "ART",
+  "title": "Multi-parameter multiplicative regularization: an application to force reconstruction problems",
+  "authors": [
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2020,
+  "venue": "Journal of Sound and Vibration, vol. 469, p. 115135",
+  "doi": "10.1016/j.jsv.2019.115135",
+  "hal": "https://hal.science/hal-02424030v1",
+  "pdf": "https://hal.science/hal-02424030/document"
+ },
+ {
+  "id": "hal-02486891",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Numerical analyses of the sound transmission through double-glazing system at low frequencies",
+  "authors": [
+   "Chaïma Soussi",
+   "Mathieu Aucejo",
+   "Walid Larbi",
+   "Jean-François Deü"
+  ],
+  "year": 2020,
+  "venue": "MEDYNA 2020: 3rd Euro-Mediterranean Conference on Structural Dynamics and Vibroacoustics, Napoli",
+  "doi": "",
+  "hal": "https://hal.science/hal-02486891v1",
+  "pdf": "https://hal.science/hal-02486891/document"
+ },
+ {
+  "id": "hal-02068524",
+  "category": "article",
+  "type": "ART",
+  "title": "An optimal Bayesian regularization for force reconstruction problems",
+  "authors": [
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2019,
+  "venue": "Mechanical Systems and Signal Processing, vol. 126, p. 98-115",
+  "doi": "10.1016/j.ymssp.2019.02.021",
+  "hal": "https://hal.science/hal-02068524v1",
+  "pdf": "https://hal.science/hal-02068524/document"
+ },
+ {
+  "id": "tel-02407524",
+  "category": "thesis",
+  "type": "HDR",
+  "title": "De l'identification des sources mécaniques au contrôle vibratoire des structures",
+  "authors": [
+   "Mathieu Aucejo"
+  ],
+  "year": 2019,
+  "venue": "Habilitation thesis (HDR)",
+  "doi": "",
+  "hal": "https://hal.science/tel-02407524v1",
+  "pdf": "https://hal.science/tel-02407524/document"
+ },
+ {
+  "id": "hal-02179323",
+  "category": "article",
+  "type": "ART",
+  "title": "On a general Iteratively Reweighted algorithm for solving force reconstruction problems",
+  "authors": [
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2019,
+  "venue": "Journal of Sound and Vibration, vol. 458, p. 376-388",
+  "doi": "10.1016/j.jsv.2019.06.041",
+  "hal": "https://hal.science/hal-02179323v1",
+  "pdf": "https://hal.science/hal-02179323/document"
+ },
+ {
+  "id": "hal-02068528",
+  "category": "article",
+  "type": "ART",
+  "title": "On a space-time regularization for force reconstruction problems",
+  "authors": [
+   "Mathieu Aucejo",
+   "Olivier de Smet",
+   "Jean-François Deü"
+  ],
+  "year": 2019,
+  "venue": "Mechanical Systems and Signal Processing, vol. 118, p. 549-567",
+  "doi": "10.1016/j.ymssp.2018.09.002",
+  "hal": "https://hal.science/hal-02068528v1",
+  "pdf": "https://hal.science/hal-02068528/document"
+ },
+ {
+  "id": "hal-02103243",
+  "category": "conference",
+  "type": "COMM",
+  "title": "On the interest of a space-time regularization for reconstructing sparse excitation sources",
+  "authors": [
+   "Mathieu Aucejo",
+   "Olivier de Smet",
+   "Jean-François Deü"
+  ],
+  "year": 2019,
+  "venue": "XIIIth Conference On Recent Advances in Structural Dynamics, Lyon",
+  "doi": "",
+  "hal": "https://hal.science/hal-02103243v1",
+  "pdf": "https://hal.science/hal-02103243/document"
+ },
+ {
+  "id": "hal-02068530",
+  "category": "article",
+  "type": "ART",
+  "title": "Practical issues on the applicability of Kalman filtering for reconstructing mechanical sources in structural dynamics",
+  "authors": [
+   "Mathieu Aucejo",
+   "Olivier de Smet",
+   "Jean-François Deü"
+  ],
+  "year": 2019,
+  "venue": "Journal of Sound and Vibration, vol. 442, p. 45-70",
+  "doi": "10.1016/j.jsv.2018.10.060",
+  "hal": "https://hal.science/hal-02068530v1",
+  "pdf": "https://hal.science/hal-02068530/document"
+ },
+ {
+  "id": "hal-02305378",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Sound transmission through double-glazed window: numerical and experimental analyses",
+  "authors": [
+   "Chaïma Soussi",
+   "Mathieu Aucejo",
+   "Walid Larbi",
+   "Jean-François Deü"
+  ],
+  "year": 2019,
+  "venue": "23rd International Congress on Acoustics, Aachen",
+  "doi": "",
+  "hal": "https://hal.science/hal-02305378v1",
+  "pdf": "https://hal.science/hal-02305378/document"
+ },
+ {
+  "id": "hal-03196461",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Vibration mitigation through analogous piezoelectric coupling",
+  "authors": [
+   "Boris Lossouarn",
+   "Mathieu Aucejo",
+   "Jean-François Deü",
+   "Kenneth A. Cunefare",
+   "Gaëtan Kerschen"
+  ],
+  "year": 2019,
+  "venue": "Joint MEMOCS Workshop on Models of Complex Materials and Systems, Arpino",
+  "doi": "",
+  "hal": "https://hal.science/hal-03196461v1",
+  "pdf": ""
+ },
+ {
+  "id": "hal-02068516",
+  "category": "article",
+  "type": "ART",
+  "title": "A space-frequency multiplicative regularization for force reconstruction problems",
+  "authors": [
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2018,
+  "venue": "Mechanical Systems and Signal Processing, vol. 104, p. 1-18",
+  "doi": "10.1016/j.ymssp.2017.10.027",
+  "hal": "https://hal.science/hal-02068516v1",
+  "pdf": "https://hal.science/hal-02068516/document"
+ },
+ {
+  "id": "hal-02068532",
+  "category": "conference",
+  "type": "COMM",
+  "title": "A Stationary Iterated Multiplicative Regularization for Force Reconstruction Problems",
+  "authors": [
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2018,
+  "venue": "6th Noise and Vibration Emerging Methods Conference, NOVEM 2018, Ibiza",
+  "doi": "",
+  "hal": "https://hal.science/hal-02068532v1",
+  "pdf": "https://hal.science/hal-02068532/document"
+ },
+ {
+  "id": "hal-02068522",
+  "category": "article",
+  "type": "ART",
+  "title": "An iterated multiplicative regularization for force reconstruction problems",
+  "authors": [
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2018,
+  "venue": "Journal of Sound and Vibration, vol. 437, p. 16-28",
+  "doi": "10.1016/j.jsv.2018.09.020",
+  "hal": "https://hal.science/hal-02068522v1",
+  "pdf": "https://hal.science/hal-02068522/document"
+ },
+ {
+  "id": "hal-01739210",
+  "category": "article",
+  "type": "ART",
+  "title": "Design of a passive electrical analogue for piezoelectric damping of a plate",
+  "authors": [
+   "Boris Lossouarn",
+   "Mathieu Aucejo",
+   "Jean-François Deü",
+   "Kenneth A. Cunefare"
+  ],
+  "year": 2018,
+  "venue": "Journal of Intelligent Material Systems and Structures, vol. 29, p. 1301-1314",
+  "doi": "10.1177/1045389X17731232",
+  "hal": "https://hal.science/hal-01739210v1",
+  "pdf": "https://hal.science/hal-01739210/document"
+ },
+ {
+  "id": "hal-01739213",
+  "category": "article",
+  "type": "ART",
+  "title": "Electromechanical wave finite element method for interconnected piezoelectric waveguides",
+  "authors": [
+   "Boris Lossouarn",
+   "Mathieu Aucejo",
+   "Jean-François Deü"
+  ],
+  "year": 2018,
+  "venue": "Computers & Structures, vol. 199, p. 46 - 56",
+  "doi": "10.1016/j.compstruc.2018.01.009",
+  "hal": "https://hal.science/hal-01739213v1",
+  "pdf": "https://hal.science/hal-01739213/document"
+ },
+ {
+  "id": "hal-02068504",
+  "category": "article",
+  "type": "ART",
+  "title": "Further investigation on “A multiplicative regularization for force reconstruction”",
+  "authors": [
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2018,
+  "venue": "Mechanical Systems and Signal Processing, vol. 104, p. 487-493",
+  "doi": "10.1016/j.ymssp.2017.11.026",
+  "hal": "https://hal.science/hal-02068504v1",
+  "pdf": "https://hal.science/hal-02068504/document"
+ },
+ {
+  "id": "hal-02068508",
+  "category": "article",
+  "type": "ART",
+  "title": "On a full Bayesian inference for force reconstruction problems",
+  "authors": [
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2018,
+  "venue": "Mechanical Systems and Signal Processing, vol. 104, p. 36-59",
+  "doi": "10.1016/j.ymssp.2017.10.023",
+  "hal": "https://hal.science/hal-02068508v1",
+  "pdf": "https://hal.science/hal-02068508/document"
+ },
+ {
+  "id": "hal-01922760",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Setting Up Plane And Thin Panels With Representative Simply Supported Boundary Conditions : Comparative Results And Applications In Three Laboratories",
+  "authors": [
+   "Olivier Robin",
+   "Alain Berry",
+   "Noureddine Atalla",
+   "Mathieu Aucejo",
+   "Boris Lossouarn",
+   "Lucie Rouleau",
+   "Jean-François Deü",
+   "Christophe Marchetto",
+   "Laurent Maxit"
+  ],
+  "year": 2018,
+  "venue": "Internoise, Chicago",
+  "doi": "",
+  "hal": "https://hal.science/hal-01922760v1",
+  "pdf": "https://hal.science/hal-01922760/document"
+ },
+ {
+  "id": "hal-02068499",
+  "category": "article",
+  "type": "ART",
+  "title": "A multiplicative regularization for force reconstruction",
+  "authors": [
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2017,
+  "venue": "Mechanical Systems and Signal Processing, vol. 85, p. 730-745",
+  "doi": "10.1016/j.ymssp.2016.09.011",
+  "hal": "https://hal.science/hal-02068499v1",
+  "pdf": "https://hal.science/hal-02068499/document"
+ },
+ {
+  "id": "hal-01739716",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Amortissement vibratoire multimodal de plaques par couplage à leurs réseaux piézoélectriques analogues",
+  "authors": [
+   "Boris Lossouarn",
+   "Kenneth A. Cunefare",
+   "Mathieu Aucejo",
+   "Jean-François Deü"
+  ],
+  "year": 2017,
+  "venue": "23ème Congrès Français de Mécanique, CFM 2017, Lille",
+  "doi": "",
+  "hal": "https://hal.science/hal-01739716v1",
+  "pdf": "https://hal.science/hal-01739716/document"
+ },
+ {
+  "id": "hal-02068535",
+  "category": "conference",
+  "type": "COMM",
+  "title": "BAYESIAN FORMULATIONS FOR FORCE RECONSTRUCTION PROBLEMS",
+  "authors": [
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2017,
+  "venue": "2nd International Conference on Uncertainty Quantification in Computational Sciences and Engineering, UNCECOMP 2017, Rhodes Island",
+  "doi": "",
+  "hal": "https://hal.science/hal-02068535v1",
+  "pdf": "https://hal.science/hal-02068535/document"
+ },
+ {
+  "id": "hal-01657528",
+  "category": "article",
+  "type": "ART",
+  "title": "Design of inductors with high inductance values for resonant piezoelectric damping",
+  "authors": [
+   "Boris Lossouarn",
+   "Mathieu Aucejo",
+   "Jean-François Deü",
+   "Bernard Multon"
+  ],
+  "year": 2017,
+  "venue": "Sensors and Actuators A: Physical, vol. 259, p. 68-76",
+  "doi": "10.1016/j.sna.2017.03.030",
+  "hal": "https://hal.science/hal-01657528v2",
+  "pdf": "https://hal.science/hal-01657528/document"
+ },
+ {
+  "id": "hal-03196464",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Wave finite element method for electromechanical periodic waveguides",
+  "authors": [
+   "Boris Lossouarn",
+   "Mathieu Aucejo",
+   "Jean-François Deü"
+  ],
+  "year": 2017,
+  "venue": "4th ECCOMAS Young Investigators Conference, YIC 2017, Milan",
+  "doi": "",
+  "hal": "https://hal.science/hal-03196464v1",
+  "pdf": ""
+ },
+ {
+  "id": "hal-01739786",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Wave Finite Element method for electromechanical periodic waveguides",
+  "authors": [
+   "Boris Lossouarn",
+   "Mathieu Aucejo",
+   "Jean-François Deü"
+  ],
+  "year": 2017,
+  "venue": "8th ECCOMAS Thematic Conference on Smart Structures and Materials, SMART 2017, Madrid",
+  "doi": "",
+  "hal": "https://hal.science/hal-01739786v1",
+  "pdf": "https://hal.science/hal-01739786/document"
+ },
+ {
+  "id": "hal-01739704",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Amortissement Multimodal par Couplage Piézoélectrique à un Analogue Electrique Passif",
+  "authors": [
+   "Boris Lossouarn",
+   "Mathieu Aucejo",
+   "Kenneth A. Cunefare",
+   "Jean-François Deü"
+  ],
+  "year": 2016,
+  "venue": "20ème Colloque VIbrations, SHocks and NOise, VISHNO 2016, Le Mans",
+  "doi": "",
+  "hal": "https://hal.science/hal-01739704v2",
+  "pdf": "https://hal.science/hal-01739704/document"
+ },
+ {
+  "id": "hal-02068262",
+  "category": "article",
+  "type": "ART",
+  "title": "Bayesian source identification using local priors",
+  "authors": [
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2016,
+  "venue": "Mechanical Systems and Signal Processing, vol. 66-67, p. 120-136",
+  "doi": "10.1016/j.ymssp.2015.05.004",
+  "hal": "https://hal.science/hal-02068262v1",
+  "pdf": "https://hal.science/hal-02068262/document"
+ },
+ {
+  "id": "hal-01739220",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Comparison of passive inductor designs for piezoelectric shunt damping",
+  "authors": [
+   "Boris Lossouarn",
+   "Olivier Thierry",
+   "Mathieu Aucejo",
+   "Jean-François Deü"
+  ],
+  "year": 2016,
+  "venue": "SPIE Smart Structures/NDE 2016, Las Vegas, Nevada",
+  "doi": "10.1117/12.2219200",
+  "hal": "https://hal.science/hal-01739220v1",
+  "pdf": "https://hal.science/hal-01739220/document"
+ },
+ {
+  "id": "hal-02068554",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Identification de sources vibratoires par régularisation multiplicative espace-fréquence",
+  "authors": [
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2016,
+  "venue": "13ème Congrès Français d’Acoustique joint avec le 20ème colloque Vibrations, Shocks and Noise, CFA/VISHNO 2016, Le Mans",
+  "doi": "",
+  "hal": "https://hal.science/hal-02068554v1",
+  "pdf": "https://hal.science/hal-02068554/document"
+ },
+ {
+  "id": "hal-01739670",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Multimodal Damping of a Plate With a Passive Piezoelectric Network",
+  "authors": [
+   "Boris Lossouarn",
+   "Mathieu Aucejo",
+   "Jean-François Deü",
+   "Kenneth A. Cunefare"
+  ],
+  "year": 2016,
+  "venue": "34th IMAC Conference and Exposition on Structural Dynamics, IMAC XXXIV, Orlando",
+  "doi": "",
+  "hal": "https://hal.science/hal-01739670v1",
+  "pdf": "https://hal.science/hal-01739670/document"
+ },
+ {
+  "id": "hal-01691082",
+  "category": "article",
+  "type": "ART",
+  "title": "Multimodal vibration damping of a plate by piezoelectric coupling to its analogous electrical network",
+  "authors": [
+   "Boris Lossouarn",
+   "Jean-François Deü",
+   "Mathieu Aucejo",
+   "Kenneth A. Cunefare"
+  ],
+  "year": 2016,
+  "venue": "Smart Materials and Structures, vol. 25",
+  "doi": "10.1088/0964-1726/25/11/115042",
+  "hal": "https://hal.science/hal-01691082v1",
+  "pdf": "https://hal.science/hal-01691082/document"
+ },
+ {
+  "id": "hal-02068543",
+  "category": "conference",
+  "type": "COMM",
+  "title": "On a space-frequency regularization for source reconstruction",
+  "authors": [
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2016,
+  "venue": "13th International Conference on Motion and Vibration Control and of the 12th International Conference on Recent Advances in Structural Dynamics, MOVIC RASD 2016, Southampton",
+  "doi": "10.1088/1742-6596/744/1/012191",
+  "hal": "https://hal.science/hal-02068543v1",
+  "pdf": "https://hal.science/hal-02068543/document"
+ },
+ {
+  "id": "hal-01739219",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Robustness of a multimodal piezoelectric damping involving the electrical analogue of a plate",
+  "authors": [
+   "Boris Lossouarn",
+   "Kenneth A. Cunefare",
+   "Mathieu Aucejo",
+   "Jean-François Deü"
+  ],
+  "year": 2016,
+  "venue": "SPIE Smart Structures and Materials + Nondestructive Evaluation and Health Monitoring, Las Vegas",
+  "doi": "10.1117/12.2218357",
+  "hal": "https://hal.science/hal-01739219v1",
+  "pdf": "https://hal.science/hal-01739219/document"
+ },
+ {
+  "id": "hal-01739657",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Transverse wave propagation in a one-dimensional structure coupled to its electrical analogue: comparison of transfer matrix models",
+  "authors": [
+   "Boris Lossouarn",
+   "Mathieu Aucejo",
+   "Jean-François Deü"
+  ],
+  "year": 2016,
+  "venue": "7th European Congress on Computational Methods in Applied Sciences and Engineering, ECCOMAS  2016, Hersonissos",
+  "doi": "",
+  "hal": "https://hal.science/hal-01739657v1",
+  "pdf": "https://hal.science/hal-01739657/document"
+ },
+ {
+  "id": "hal-01739575",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Comparison of electromechanical transfer matrix models for passive damping involving an array of shunted piezoelectric patches",
+  "authors": [
+   "Jean-François Deü",
+   "Boris Lossouarn",
+   "Mathieu Aucejo"
+  ],
+  "year": 2015,
+  "venue": "22nd International Congress on Sound and Vibration, ICSV22, Florence",
+  "doi": "",
+  "hal": "https://hal.science/hal-01739575v1",
+  "pdf": "https://hal.science/hal-01739575/document"
+ },
+ {
+  "id": "hal-02068558",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Identification de sources mécaniques par régularisation multiplicative",
+  "authors": [
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2015,
+  "venue": "22ème Congrès Français de Mécanique, Lyon",
+  "doi": "",
+  "hal": "https://hal.science/hal-02068558v1",
+  "pdf": "https://hal.science/hal-02068558/document"
+ },
+ {
+  "id": "hal-01691077",
+  "category": "article",
+  "type": "ART",
+  "title": "Multimodal coupling of periodic lattices and application to rod vibration damping with a piezoelectric network",
+  "authors": [
+   "Boris Lossouarn",
+   "Mathieu Aucejo",
+   "Jean-François Deü"
+  ],
+  "year": 2015,
+  "venue": "Smart Materials and Structures, vol. 24",
+  "doi": "10.1088/0964-1726/24/4/045018",
+  "hal": "https://hal.science/hal-01691077v1",
+  "pdf": "https://hal.science/hal-01691077/document"
+ },
+ {
+  "id": "hal-01691081",
+  "category": "article",
+  "type": "ART",
+  "title": "Multimodal vibration damping of a beam with a periodic array of piezoelectric patches connected to a passive electrical network",
+  "authors": [
+   "Boris Lossouarn",
+   "Jean-François Deü",
+   "Mathieu Aucejo"
+  ],
+  "year": 2015,
+  "venue": "Smart Materials and Structures, vol. 24",
+  "doi": "10.1088/0964-1726/24/11/115037",
+  "hal": "https://hal.science/hal-01691081v1",
+  "pdf": "https://hal.science/hal-01691081/document"
+ },
+ {
+  "id": "hal-01739217",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Multimodal vibration damping through a periodic array of piezoelectric patches connected to a passive network",
+  "authors": [
+   "Boris Lossouarn",
+   "Mathieu Aucejo",
+   "Jean-François Deü"
+  ],
+  "year": 2015,
+  "venue": "SPIE Smart Structures and Materials + Nondestructive Evaluation and Health Monitoring, San Diego",
+  "doi": "10.1117/12.2083835",
+  "hal": "https://hal.science/hal-01739217v1",
+  "pdf": "https://hal.science/hal-01739217/document"
+ },
+ {
+  "id": "hal-01739562",
+  "category": "conference",
+  "type": "POSTER",
+  "title": "Multimodal vibration damping through a periodic array of piezoelectric patches connected to a passive network",
+  "authors": [
+   "Boris Lossouarn",
+   "Jean-François Deü",
+   "Mathieu Aucejo"
+  ],
+  "year": 2014,
+  "venue": "4èmes Journées Jeunes Chercheurs en vibrations, Acoustique et Bruit, JJCAB 2014, Lyon",
+  "doi": "",
+  "hal": "https://hal.science/hal-01739562v1",
+  "pdf": "https://hal.science/hal-01739562/document"
+ },
+ {
+  "id": "hal-02121068",
+  "category": "chapter",
+  "type": "COUV",
+  "title": "Source Scanning Technique for Simulating TBL-Induced Vibrations Measurements",
+  "authors": [
+   "Mathieu Aucejo",
+   "Laurent Maxit",
+   "Jean-Louis Guyader"
+  ],
+  "year": 2014,
+  "venue": "Flinovia - Flow Induced Noise and Vibration Issues and Aspects",
+  "doi": "",
+  "hal": "https://hal.science/hal-02121068v1",
+  "pdf": "https://hal.science/hal-02121068/document"
+ },
+ {
+  "id": "hal-02068189",
+  "category": "article",
+  "type": "ART",
+  "title": "Structural source identification using a generalized Tikhonov regularization",
+  "authors": [
+   "Mathieu Aucejo"
+  ],
+  "year": 2014,
+  "venue": "Journal of Sound and Vibration, vol. 333, p. 5693-5707",
+  "doi": "10.1016/j.jsv.2014.06.027",
+  "hal": "https://hal.science/hal-02068189v1",
+  "pdf": "https://hal.science/hal-02068189/document"
+ },
+ {
+  "id": "hal-01739546",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Wave propagation in coupled periodic lattices and application to vibration attenuation through a piezoelectric network",
+  "authors": [
+   "Boris Lossouarn",
+   "Jean-François Deü",
+   "Mathieu Aucejo"
+  ],
+  "year": 2014,
+  "venue": "26th International Conference on Noise and Vibration Engineering, ISMA2014, Leuven",
+  "doi": "",
+  "hal": "https://hal.science/hal-01739546v1",
+  "pdf": "https://hal.science/hal-01739546/document"
+ },
+ {
+  "id": "hal-02305526",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Wave propagation in coupled periodic lattices and application to vibration attenuation through a piezoelectric network",
+  "authors": [
+   "Boris Lossouarn",
+   "Mathieu Aucejo",
+   "Jean-François Deü"
+  ],
+  "year": 2014,
+  "venue": "19ème Colloque Vibrations, Chocs et Bruit, VCB 2014/19th Symposium Vibrations, Shocks and Noise, VISHNO 2014, Aix-en-Provence",
+  "doi": "",
+  "hal": "https://hal.science/hal-02305526v1",
+  "pdf": ""
+ },
+ {
+  "id": "hal-03179181",
+  "category": "conference",
+  "type": "COMM",
+  "title": "A source scanning technique for simulating TBL-induced vibrations measurements",
+  "authors": [
+   "Mathieu Aucejo",
+   "Laurent Maxit",
+   "Jean-Louis Guyader"
+  ],
+  "year": 2013,
+  "venue": "Flow Induced Noise and Vibration Issues and Aspects, Flinovia, Roma",
+  "doi": "",
+  "hal": "https://hal.science/hal-03179181v1",
+  "pdf": ""
+ },
+ {
+  "id": "hal-02068565",
+  "category": "conference",
+  "type": "COMM",
+  "title": "BAYESIAN STRUCTURAL SOURCE IDENTIFICATION USING GENERALIZED GAUSSIAN PRIORS",
+  "authors": [
+   "Olivier de Smet",
+   "Mathieu Aucejo"
+  ],
+  "year": 2013,
+  "venue": "11th International Conference on Vibration Problems, Lisbon",
+  "doi": "",
+  "hal": "https://hal.science/hal-02068565v1",
+  "pdf": "https://hal.science/hal-02068565/document"
+ },
+ {
+  "id": "hal-02068563",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Bayesian structural source identification using local generalized Gaussian priors",
+  "authors": [
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2013,
+  "venue": "Internoise 2013, Innsbruck",
+  "doi": "",
+  "hal": "https://hal.science/hal-02068563v1",
+  "pdf": "https://hal.science/hal-02068563/document"
+ },
+ {
+  "id": "hal-02305511",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Identification de sources vibratoires par approche bayésienne: apport des a priori locaux suivant une loi normale généralisée",
+  "authors": [
+   "Mathieu Aucejo",
+   "Olivier de Smet"
+  ],
+  "year": 2013,
+  "venue": "21ème Congrès Français de Mécanique, Bordeaux",
+  "doi": "",
+  "hal": "https://hal.science/hal-02305511v1",
+  "pdf": "https://hal.science/hal-02305511/document"
+ },
+ {
+  "id": "hal-01668987",
+  "category": "article",
+  "type": "ART",
+  "title": "Experimental simulation of turbulent boundary layer induced vibrations by using a synthetic array",
+  "authors": [
+   "Mathieu Aucejo",
+   "Laurent Maxit",
+   "J.-L. Guyader"
+  ],
+  "year": 2012,
+  "venue": "Journal of Sound and Vibration, vol. 331, p. 3824-3843",
+  "doi": "10.1016/j.jsv.2012.04.010",
+  "hal": "https://hal.science/hal-01668987v1",
+  "pdf": "https://hal.science/hal-01668987/document"
+ },
+ {
+  "id": "hal-00744504",
+  "category": "article",
+  "type": "ART",
+  "title": "Improving the Patch Transfer Function Approach for Fluid-Structure Modelling in Heavy Fluid",
+  "authors": [
+   "Laurent Maxit",
+   "Mathieu Aucejo",
+   "Jean-Louis Guyader"
+  ],
+  "year": 2012,
+  "venue": "Journal of Vibration and Acoustics, vol. 134, p. 051011",
+  "doi": "10.1115/1.4005838",
+  "hal": "https://hal.science/hal-00744504v1",
+  "pdf": "https://hal.science/hal-00744504/document"
+ },
+ {
+  "id": "hal-00744519",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Modelling of sound transmission through ship structures using the Patch Transfer Functions approach",
+  "authors": [
+   "Laurent Maxit",
+   "Mathieu Aucejo",
+   "Jean-Louis Guyader"
+  ],
+  "year": 2011,
+  "venue": "INTERNOISE 2011, Osaka",
+  "doi": "",
+  "hal": "https://hal.science/hal-00744519v1",
+  "pdf": "https://hal.science/hal-00744519/document"
+ },
+ {
+  "id": "hal-01668981",
+  "category": "article",
+  "type": "ART",
+  "title": "Convergence acceleration using the residual shape technique when solving structure-acoustic coupling with the Patch Transfer Functions method",
+  "authors": [
+   "M. Aucejo",
+   "Laurent Maxit",
+   "N Totaro",
+   "J.-L. Guyader"
+  ],
+  "year": 2010,
+  "venue": "Computers & Structures, vol. 88, p. 728-736",
+  "doi": "10.1016/j.compstruc.2010.02.010",
+  "hal": "https://hal.science/hal-01668981v1",
+  "pdf": "https://hal.science/hal-01668981/document"
+ },
+ {
+  "id": "hal-01668973",
+  "category": "article",
+  "type": "ART",
+  "title": "Identification of source velocities on 3D structures in non-anechoic environments: Theoretical background and experimental validation of the inverse patch transfer functions method",
+  "authors": [
+   "M. Aucejo",
+   "N. Totaro",
+   "J.-L. Guyader"
+  ],
+  "year": 2010,
+  "venue": "Journal of Sound and Vibration, vol. 329, p. 3691 - 3708",
+  "doi": "10.1016/j.jsv.2010.03.032",
+  "hal": "https://hal.science/hal-01668973v1",
+  "pdf": "https://hal.science/hal-01668973/document"
+ },
+ {
+  "id": "hal-00538357",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Modélisation de l'interaction structure-fluide lourd par l'approche PTF (Patch Transfer Functions)",
+  "authors": [
+   "Laurent Maxit",
+   "Mathieu Aucejo",
+   "Nicolas Totaro",
+   "Jean-Louis Guyader"
+  ],
+  "year": 2010,
+  "venue": "10ème Congrès Français d'Acoustique, Lyon",
+  "doi": "",
+  "hal": "https://hal.science/hal-00538357v1",
+  "pdf": "https://hal.science/hal-00538357/document"
+ },
+ {
+  "id": "hal-00534639",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Utilisation d'une antenne synthétique pour simuler l'effet d'une couche limite turbulente",
+  "authors": [
+   "Mathieu Aucejo",
+   "Laurent Maxit",
+   "Jean-Louis Guyader"
+  ],
+  "year": 2010,
+  "venue": "10ème Congrès Français d'Acoustique, Lyon",
+  "doi": "",
+  "hal": "https://hal.science/hal-00534639v1",
+  "pdf": "https://hal.science/hal-00534639/document"
+ },
+ {
+  "id": "tel-00777773",
+  "category": "thesis",
+  "type": "THESE",
+  "title": "Vibro-acoustique des structures immergées sous écoulement turbulent",
+  "authors": [
+   "Mathieu Aucejo"
+  ],
+  "year": 2010,
+  "venue": "PhD thesis",
+  "doi": "",
+  "hal": "https://theses.hal.science/tel-00777773v1",
+  "pdf": "https://theses.hal.science/tel-00777773/document"
+ },
+ {
+  "id": "hal-00415096",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Identification of source velocities in presence of correlated sources with the inverse Patch Transfer Functions (iPTF) method",
+  "authors": [
+   "Mathieu Aucejo",
+   "Nicolas Totaro",
+   "Jean-Louis Guyader"
+  ],
+  "year": 2009,
+  "venue": "NOVEM 2009, Oxford",
+  "doi": "",
+  "hal": "https://hal.science/hal-00415096v1",
+  "pdf": "https://hal.science/hal-00415096/document"
+ },
+ {
+  "id": "hal-00416364",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Introduction of residual modes concept in the patch transfer functions method to model the structure-acoustic coupling in heavy fluid",
+  "authors": [
+   "Mathieu Aucejo",
+   "Laurent Maxit",
+   "Nicolas Totaro",
+   "Jean-Louis Guyader"
+  ],
+  "year": 2009,
+  "venue": "16th International Congress on Sound and Vibration (ICSV16), Cracovie",
+  "doi": "",
+  "hal": "https://hal.science/hal-00416364v1",
+  "pdf": "https://hal.science/hal-00416364/document"
+ },
+ {
+  "id": "hal-03179340",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Identification of source velocities with Inverse Patch Transfer Functions method",
+  "authors": [
+   "Mathieu Aucejo",
+   "Nicolas Totaro",
+   "Jean-Louis Guyader"
+  ],
+  "year": 2008,
+  "venue": "Acoustics' 08, Paris",
+  "doi": "",
+  "hal": "https://hal.science/hal-03179340v1",
+  "pdf": "https://hal.science/hal-03179340/document"
+ },
+ {
+  "id": "hal-00414928",
+  "category": "conference",
+  "type": "COMM",
+  "title": "Prévision en basses et moyennes fréquences du bruit hydrodynamique sous dôme Sonar par sous-structuration du problème fluide-structure",
+  "authors": [
+   "Mathieu Aucejo",
+   "Laurent Maxit",
+   "Jean-Louis Guyader"
+  ],
+  "year": 2008,
+  "venue": "Journées SFA « Acoustique et Applications navales », Marseille",
+  "doi": "",
+  "hal": "https://hal.science/hal-00414928v1",
+  "pdf": ""
+ }
+]

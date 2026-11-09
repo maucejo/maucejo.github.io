@@ -1,0 +1,18 @@
+{# Default layout for inner pages: header band + reading column (+ optional TOC). #}
+{% set calepin_theme_storage_key = "aucejo-theme" %}
+{% set calepin_theme_param = "" %}
+{% include "partials/site-head.html" %}
+{{ doc.body_open }}
+    <a class="mx-skip" href="#content">Skip to content</a>
+{% include "partials/site-nav.html" %}
+{% include "partials/page-header.html" %}
+    <div class="mx-container mx-page{% if site.toc %} has-toc{% endif %}">
+        <main id="content" class="mx-main calepin-content" data-pagefind-body>
+            {{ doc.body }}
+        </main>
+        {% include "partials/site-nav-toc.html" %}
+    </div>
+{% include "partials/site-footer.html" %}
+{% include "partials/site-search.html" %}
+{% include "partials/theme-scripts.html" %}
+{{ doc.body_close }}

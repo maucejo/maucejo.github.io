@@ -1,0 +1,8 @@
+{# Icon row built from [[menus.social]] in calepin.toml. #}
+{% if site.menus.social %}
+<ul class="mx-social" aria-label="Profiles">
+    {% for item in site.menus.social %}
+    <li><a href="{{ item.href }}" aria-label="{{ item.label }}" title="{{ item.label }}" target="_blank" rel="noopener">{{ item.label_html }}</a></li>
+    {% endfor %}
+</ul>
+{% endif %}

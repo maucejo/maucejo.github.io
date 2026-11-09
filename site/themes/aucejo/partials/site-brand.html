@@ -1,0 +1,4 @@
+            <a class="calepin-site-brand mx-brand" href="{% if site.home_url %}{{ site.home_url }}{% else %}index.html{% endif %}" aria-label="{{ site.title }} — home">
+                {% if site.logo %}<img src="{{ site.logo }}" alt="" class="calepin-site-logo mx-brand-logo" width="32" height="32">{% endif %}
+                <span class="mx-brand-text">{{ site.title }}</span>
+            </a>

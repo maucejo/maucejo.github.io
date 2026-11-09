@@ -1,2 +1,3 @@
-/.quarto/
-/_site/
+/site/_site/
+/site/_calepin/
+/site/.calepin/

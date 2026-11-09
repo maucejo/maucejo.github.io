@@ -1,0 +1,26 @@
+{# Top navigation bar. Class names `academic-topbar`, `academic-nav-toggle` and
+   `academic-menu` are kept so the inherited academic main.js (hide-on-scroll
+   and mobile menu) keeps working. #}
+    <header class="academic-topbar calepin-site-topbar mx-topbar">
+        <nav class="mx-nav calepin-site-nav" aria-label="Site">
+            {% include "partials/site-brand.html" %}
+            <button class="academic-nav-toggle calepin-nav-toggle mx-nav-toggle" type="button" aria-controls="academic-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </button>
+            <div id="academic-menu" class="academic-menu calepin-site-menu mx-menu">
+                <ul class="mx-menu-links">
+                {% for item in site.menus.main %}
+                    <li>{% include "partials/site-nav-item.html" %}</li>
+                {% endfor %}
+                </ul>
+                <div class="mx-menu-tools">
+                    {% if site.pagefind %}<pagefind-modal-trigger></pagefind-modal-trigger>{% endif %}
+                    {% set calepin_theme_toggle_storage_key = "aucejo-theme" %}
+                    {% include "partials/theme-toggle-button.html" %}
+                    {% include "partials/site-language-picker.html" %}
+                </div>
+            </div>
+        </nav>
+    </header>
