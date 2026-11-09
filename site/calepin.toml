@@ -100,7 +100,7 @@ label = "{icon:linkedin}"
 aria-label = "LinkedIn"
 
 [[menus.social]]
-target = "https://piaille.fr/@maucejo"
+target = "https://social.sciences.re/@maucejo"
 label = "{icon:simple-icons:mastodon}"
 aria-label = "Mastodon"
 
