@@ -15,9 +15,9 @@
     
     
     
-    <meta name="description" content="Full professor of Structural Mechanics and Acoustics at Le Cnam (LMSSC), Paris. Inverse problems, vibration control and vibro-acoustics.">
-    <meta property="og:description" content="Full professor of Structural Mechanics and Acoustics at Le Cnam (LMSSC), Paris. Inverse problems, vibration control and vibro-acoustics.">
-    <meta name="twitter:description" content="Full professor of Structural Mechanics and Acoustics at Le Cnam (LMSSC), Paris. Inverse problems, vibration control and vibro-acoustics.">
+    <meta name="description" content="Full professor of Structural Mechanics and Acoustics at Le Cnam (MACS), Paris. Inverse problems, vibration control and vibro-acoustics.">
+    <meta property="og:description" content="Full professor of Structural Mechanics and Acoustics at Le Cnam (MACS), Paris. Inverse problems, vibration control and vibro-acoustics.">
+    <meta name="twitter:description" content="Full professor of Structural Mechanics and Acoustics at Le Cnam (MACS), Paris. Inverse problems, vibration control and vibro-acoustics.">
     
     
     <meta name="theme-color" content="#11304C">
@@ -1899,6 +1899,19 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
+.mx-hero-role {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.6rem;
+}
+
+.mx-hero-role > * + *::before {
+  content: "•";
+  display: inline-block;
+  margin-right: 0.6rem;
+  color: var(--mx-crimson);
+}
+
 .mx-lead {
   font-size: 1.15rem;
   line-height: 1.65;
@@ -2989,7 +3002,7 @@ html[data-theme="dark"] .mx-pub-type.is-chapter { color: #f0b54a; }
         <div class="mx-hero-bg" aria-hidden="true"></div>
         <div class="mx-container mx-hero-grid">
             <div class="mx-hero-text">
-                <p class="mx-kicker">Full Professor · Structural Mechanics & Acoustics</p>
+                <p class="mx-kicker mx-hero-role"><span>Full Professor</span><span>Structural Mechanics & Acoustics</span></p>
                 <h1 id="mx-hero-title" class="mx-hero-title">Mathieu Aucejo</h1>
                 <p class="mx-hero-lead">I develop methods to identify, model and control vibrations and sound in mechanical structures, alongside open-source tools for research and education.</p>
                 <p class="mx-hero-meta">
