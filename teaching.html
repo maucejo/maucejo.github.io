@@ -2091,7 +2091,10 @@ html[data-theme="dark"] .mx-brand-logo {
 }
 
 .mx-hero-title {
-  margin: 0 0 1.25rem;
+  /* Extra bottom padding so the gradient (background-clip: text) also
+     covers descenders such as the "j"; the margin compensates for it. */
+  margin: 0 0 calc(1.25rem - 0.15em);
+  padding-bottom: 0.15em;
   font-size: clamp(2.6rem, 6.5vw, 4.4rem);
   font-weight: 700;
   line-height: 1.02;
