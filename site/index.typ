@@ -12,7 +12,7 @@
   (value: str(n-articles), label: "Journal articles"),
   (value: str(n-conf), label: "Conference papers"),
   (value: "15+", label: "Years in research"),
-  (value: "6", label: "Open-source packages"),
+  (value: "7", label: "Open-source packages"),
 )
 
 #section(kicker: "About", [Welcome!])[

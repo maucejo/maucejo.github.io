@@ -20,22 +20,47 @@
 ]
 
 #section(kicker: "Typst", [Scientific writing])[
-  #cards(cols: 2,
-    card([bookly], href: "https://github.com/maucejo/bookly",
-      icon: logo("assets/images/typst_logo.png", "Typst"), tag: "Typst")[
+  #cards(
+    cols: 2,
+    card(
+      [bookly],
+      href: "https://github.com/maucejo/bookly",
+      icon: logo("assets/images/typst_logo.png", "Typst"),
+      tag: "Typst",
+    )[
       A template for writing academic documents and books.
     ],
-    card([slydekit], href: "https://github.com/maucejo/slydekit",
-      icon: logo("assets/images/typst_logo.png", "Typst"), tag: "Typst")[
+    card(
+      [slydekit],
+      href: "https://github.com/maucejo/slydekit",
+      icon: logo("assets/images/typst_logo.png", "Typst"),
+      tag: "Typst",
+    )[
       A presentation framework with a theme system, incremental reveals and citation handling, built on Typst's native state and queries.
     ],
-    card([elsearticle], href: "https://github.com/maucejo/elsearticle",
-      icon: logo("assets/images/typst_logo.png", "Typst"), tag: "Typst")[
+    card(
+      [elsearticle],
+      href: "https://github.com/maucejo/elsearticle",
+      icon: logo("assets/images/typst_logo.png", "Typst"),
+      tag: "Typst",
+    )[
       Mimics Elsevier's `elsarticle.cls` LaTeX class to format manuscriptscfor submission.
     ],
-    card([elspub], href: "https://github.com/maucejo/elspub",
-      icon: logo("assets/images/typst_logo.png", "Typst"), tag: "Typst")[
+    card(
+      [elspub],
+      href: "https://github.com/maucejo/elspub",
+      icon: logo("assets/images/typst_logo.png", "Typst"),
+      tag: "Typst",
+    )[
       Reproduces the look of published Elsevier articles. This is a proof of concept for Typst in scientific publishing.
+    ],
+    card(
+      [community-cnam-thesis],
+      href: "https://github.com/maucejo/community-cnam-thesis",
+      icon: logo("assets/images/typst_logo.png", "Typst"),
+      tag: "Typst",
+    )[
+      A template for writing PhD theses at Le Cnam, based on the official LaTeX template. Built on `bookly`.
     ],
   )
 ]
