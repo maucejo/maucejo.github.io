@@ -62,6 +62,14 @@
     )[
       A template for writing PhD theses at Le Cnam, based on the official LaTeX template. Built on `bookly`.
     ],
+    card(
+      [quarto-bookly],
+      href: "https://github.com/maucejo/quarto-bookly",
+      icon: logo("assets/images/typst_logo.png", "Typst"),
+      tag: "Typst",
+    )[
+      A template for writing PhD theses at Le Cnam, based on the official LaTeX template. Built on `bookly`.
+    ],
   )
 ]
 
