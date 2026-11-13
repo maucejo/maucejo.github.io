@@ -1,8 +1,6 @@
 // UI components for the aucejo theme.
 //
-// Each helper emits plain HTML elements with `mx-*` classes, styled by
-// themes/aucejo/css/60_aucejo.css. Import them in a page with
-//   #import "/_lib/ui.typ": *
+// Each helper emits plain HTML elements with `mx-*` classes, styled by themes/aucejo/css/60_aucejo.css. Import them in a page with #import "/_lib/ui.typ": *
 
 #let el(tag, class: none, attrs: (:), body) = {
   let a = attrs
@@ -31,19 +29,18 @@
   })
 }
 
-/// Lead paragraph, slightly larger than body text.
+// Lead paragraph, slightly larger than body text.
 #let lead(body) = el("p", class: "mx-lead", body)
 
-/// Pill-shaped tags.
+// Pill-shaped tags.
 #let chips(..items) = el("ul", class: "mx-chips",
   items.pos().map(i => el("li", class: "mx-chip", i)).join())
 
-/// Responsive grid of cards. `cols` is the max number of columns.
+// Responsive grid of cards. `cols` is the max number of columns.
 #let cards(cols: 3, ..items) = el("div", class: "mx-cards",
   attrs: (style: "--mx-cols: " + str(cols)), items.pos().join())
 
-/// One card. When `href` is given, the whole card is a link.
-/// `stats` is optional content shown in a footer row at the bottom of the card.
+// One card. When `href` is given, the whole card is a link. `stats` is optional content shown in a footer row at the bottom of the card.
 #let card(title, href: none, tag: none, icon: none, meta: none, stats: none, body) = {
   let inner = {
     if icon != none or tag != none {
@@ -65,7 +62,7 @@
   }
 }
 
-/// Vertical timeline. Items: (when: "2019", what: [...], where: [...])
+// Vertical timeline. Items: (when: "2019", what: [...], where: [...])
 #let timeline(..items) = el("ol", class: "mx-timeline", items.pos().map(it =>
   el("li", class: "mx-timeline-item", {
     el("span", class: "mx-timeline-when", it.when)
@@ -78,7 +75,7 @@
   })
 ).join())
 
-/// Row of key figures. Items: (value: "84", label: "publications")
+// Row of key figures. Items: (value: "84", label: "publications")
 #let stats(..items) = el("dl", class: "mx-stats", items.pos().map(it =>
   el("div", class: "mx-stat", {
     el("dt", class: "mx-stat-label", it.label)
@@ -86,10 +83,10 @@
   })
 ).join())
 
-/// Inline image (e.g. a language logo) sized to the text.
+// Inline image (e.g. a language logo) sized to the text.
 #let logo(src, alt) = html.elem("img", attrs: (class: "mx-inline-logo", src: src, alt: alt))
 
-/// Call-to-action button.
+// Call-to-action button.
 #let button(href, body, ghost: false) = link-out(href,
   class: if ghost { "mx-btn mx-btn-ghost" } else { "mx-btn mx-btn-primary" }, body)
 
@@ -99,8 +96,7 @@
 
 #let software = json("/data/software.json").packages
 
-/// Version + GitHub stars of a repository, from its GitHub URL. None when the
-/// repository is not in data/software.json (re-run the update script).
+// Version + GitHub stars of a repository, from its GitHub URL. None when the repository is not in data/software.json (re-run the update script).
 #let repo-stats(href) = {
   let repo = href.replace(regex("^https://github\.com/"), "").trim("/")
   let info = software.at(repo, default: none)
@@ -115,8 +111,7 @@
   })
 }
 
-/// A card for a package hosted on GitHub: same as `card`, plus its version
-/// and star count.
+// A card for a package hosted on GitHub: same as `card`, plus its version and star count.
 #let software-card(title, href: none, ..args) = card(title, href: href,
   stats: if href != none { repo-stats(href) }, ..args)
 
@@ -148,7 +143,7 @@
   if _is-me(n) { el("strong", class: "mx-me", n) } else { n }
 }).join()
 
-/// One publication entry.
+// One publication entry.
 #let pub(p) = el("li", class: "mx-pub", attrs: (
   "data-category": p.category,
   "data-year": str(p.year),
@@ -187,14 +182,14 @@
   })
 })
 
-/// List of publications, optionally filtered by category and truncated.
+// List of publications, optionally filtered by category and truncated.
 #let pub-list(category: none, limit: none) = {
   let items = publications.filter(p => category == none or p.category == category)
   if limit != none { items = items.slice(0, calc.min(limit, items.len())) }
   el("ol", class: "mx-pubs", items.map(pub).join())
 }
 
-/// Search box + category filter, wired up by themes/aucejo/js/publications.js.
+// Search box + category filter, wired up by themes/aucejo/js/publications.js.
 #let pub-filters() = {
   let counts = (:)
   for p in publications {
@@ -239,8 +234,7 @@
 //   toc: true or (depth: 4) (optional, table of contents beside the post)
 // ---------------------------------------------------------------------------
 
-// Calepin runtime (page index, URL helper). It is staged in the `asset-dir`
-// set in calepin.toml (`_calepin`) at build time.
+// Calepin runtime (page index, URL helper). It is staged in the `asset-dir` set in calepin.toml (`_calepin`) at build time.
 #import "/_calepin/calepin.typ" as calepin
 
 #let default-author = "Mathieu Aucejo"
@@ -248,17 +242,16 @@
 #let months = ("January", "February", "March", "April", "May", "June", "July",
   "August", "September", "October", "November", "December")
 
-/// "2026-11-12" -> "12 November 2026"
+// "2026-11-12" -> "12 November 2026"
 #let format-date(d) = {
   let parts = d.split("-").map(int)
   str(parts.at(2)) + " " + months.at(parts.at(1) - 1) + " " + str(parts.at(0))
 }
 
-/// "Code & tips" -> "code-&-tips": the value used in URLs and data attributes.
+// "Code & tips" -> "code-&-tips": the value used in URLs and data attributes.
 #let _slug(s) = lower(s).replace(" ", "-")
 
-/// Completes a post's metadata for Calepin: marks it as a post and exposes
-/// the description as `summary`, which the Atom feed uses. A draft only keeps its title and description: without a date, Calepin leaves it out of the feed, and without `kind: "post"` it is left out of every listing. `toc: true` shows Calepin's table of contents beside the post; it is off by default (calepin.toml, [toc]). The page title is the <h1>, so `==` headings are level 3: `toc: true` lists them, `toc: (depth: 4)` adds `===` ones.
+// Completes a post's metadata for Calepin: marks it as a post and exposes the description as `summary`, which the Atom feed uses. A draft only keeps its title and description: without a date, Calepin leaves it out of the feed, and without `kind: "post"` it is left out of every listing. `toc: true` shows Calepin's table of contents beside the post; it is off by default (calepin.toml, [toc]). The page title is the <h1>, so `==` headings are level 3: `toc: true` lists them, `toc: (depth: 4)` adds `===` ones.
 #let post-meta(meta) = {
   let toc = meta.at("toc", default: false)
   let toc = if type(toc) == dictionary { (enabled: true) + toc } else { (enabled: toc == true, depth: 3) }
@@ -269,8 +262,8 @@
   }
 }
 
-/// Published posts (no drafts), newest first. Each entry is a Calepin page:
-/// (href: relative link, meta: the post metadata, ...).
+// Published posts (no drafts), newest first. Each entry is a Calepin page:
+// (href: relative link, meta: the post metadata, ...).
 #let posts() = {
   calepin.pages()
     .filter(p => type(p.at("meta", default: none)) == dictionary)
@@ -282,16 +275,13 @@
 
 #let _blog-link(key, value) = calepin.url("/blog.html") + "#" + key + "=" + _slug(value)
 
-/// Site-root directory of a page, from its source path or href:
-/// "blog/my-post/index.typ" -> "/blog/my-post/".
+// Site-root directory of a page, from its source path or href: "blog/my-post/index.typ" -> "/blog/my-post/".
 #let _page-dir(path) = {
   let parts = path.split("/")
   "/" + parts.slice(0, parts.len() - 1).map(x => x + "/").join(default: "")
 }
 
-/// A post's cover as a site-root path. `cover` is relative to the post's
-/// folder ("cover.jpg" -> "/blog/<slug>/cover.jpg"), unless it starts with
-/// "/" (path from the site root) or is a full URL.
+// A post's cover as a site-root path. `cover` is relative to the post's folder ("cover.jpg" -> "/blog/<slug>/cover.jpg"), unless it starts with "/" (path from the site root) or is a full URL.
 #let _cover-path(cover, page-path) = {
   if cover.starts-with("/") or cover.contains("://") { cover }
   else { _page-dir(page-path) + cover }
