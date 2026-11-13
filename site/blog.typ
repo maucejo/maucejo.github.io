@@ -10,6 +10,5 @@
   tools I build for research and teaching.
 ]
 
-// Posts are found automatically: every page with `kind: "post"` in its
-// metadata (see blog/hello-world.typ) is listed here, newest first.
+// Posts are found automatically: every page with `kind: "post"` in its metadata (see blog/MakieApp/index.typ) is listed here, newest first.
 #blog()

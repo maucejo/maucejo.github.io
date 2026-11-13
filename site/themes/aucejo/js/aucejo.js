@@ -148,8 +148,45 @@
     sections.forEach((s) => observer.observe(s));
   }
 
+  // Collapsible TOC: sub-entries are shown only while their parent section is
+  // active. Calepin renders a flat list (li.level-N) and marks the current
+  // link with a.active; this rebuilds the hierarchy and hides the entries
+  // whose parent is not on the path to the active one.
+  function initTocCollapse() {
+    const nav = document.querySelector(".calepin-website-toc nav");
+    if (!nav) return;
+    const items = Array.from(nav.querySelectorAll("li")).map((li) => {
+      const m = li.className.match(/\blevel-(\d+)\b/);
+      return { li, level: m ? Number(m[1]) : 0, parent: null };
+    });
+    if (items.length < 2) return;
+
+    const top = Math.min(...items.map((it) => it.level));
+    const stack = [];
+    for (const it of items) {
+      while (stack.length && stack[stack.length - 1].level >= it.level) stack.pop();
+      it.parent = stack[stack.length - 1] || null;
+      stack.push(it);
+    }
+
+    function refresh() {
+      const activeLi = nav.querySelector("a.active")?.closest("li");
+      const open = new Set();
+      for (let it = items.find((i) => i.li === activeLi); it; it = it.parent) open.add(it);
+      for (const it of items) {
+        it.li.classList.toggle("is-collapsed", it.level !== top && !open.has(it.parent));
+      }
+    }
+
+    new MutationObserver((records) => {
+      if (records.some((r) => r.target.tagName === "A")) refresh();
+    }).observe(nav, { subtree: true, attributes: true, attributeFilter: ["class"] });
+    refresh();
+  }
+
   initPublicationFilters();
   initPostFilters();
   initReadingTime();
   initReveal();
+  initTocCollapse();
 })();

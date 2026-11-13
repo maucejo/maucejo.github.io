@@ -225,16 +225,16 @@
 // ---------------------------------------------------------------------------
 // Blog
 //
-// A post is any page whose metadata has `kind: "post"`. Calepin indexes every
-// page, so the blog listing, the home page and the prev/next links find posts
-// on their own: create blog/<slug>.typ and it appears everywhere.
+// A post is any page whose metadata has `kind: "post"`. Calepin indexes every page, so the blog listing, the home page and the prev/next links find posts on their own: create blog/<slug>/index.typ and it appears everywhere.
+// Each post is a folder holding its source and its files (images, data…), referenced with paths relative to the folder: #image("figure.png").
 //
-// Post metadata (see blog/hello-world.typ):
+// Post metadata (see blog/MakieApp/index.typ):
 //   title, description, date ("YYYY-MM-DD"),
 //   type (one per post, e.g. "Tutorial"; shown on the card, filters the blog),
 //   tags (array; shown in the post, link to the blog filtered on that tag),
 //   author (optional, defaults to the site owner),
-//   cover + cover-alt (optional, path from the site root),
+//   cover + cover-alt (optional, path relative to the post folder,
+//     or from the site root if it starts with "/"),
 //   draft: true (optional, hides the post from listings and the feed),
 //   toc: true or (depth: 4) (optional, table of contents beside the post)
 // ---------------------------------------------------------------------------
@@ -282,11 +282,25 @@
 
 #let _blog-link(key, value) = calepin.url("/blog.html") + "#" + key + "=" + _slug(value)
 
-// Cover image. The path is made relative to the current page, so it works
-// whatever the server root (or over file://). Calepin then embeds the image
-// in the page: keep covers light (≈1200×630, compressed JPG/WebP or SVG).
-#let _cover(meta, class, lazy: false) = {
-  let attrs = (class: class, src: calepin.url(meta.cover), alt: meta.at("cover-alt", default: ""))
+/// Site-root directory of a page, from its source path or href:
+/// "blog/my-post/index.typ" -> "/blog/my-post/".
+#let _page-dir(path) = {
+  let parts = path.split("/")
+  "/" + parts.slice(0, parts.len() - 1).map(x => x + "/").join(default: "")
+}
+
+/// A post's cover as a site-root path. `cover` is relative to the post's
+/// folder ("cover.jpg" -> "/blog/<slug>/cover.jpg"), unless it starts with
+/// "/" (path from the site root) or is a full URL.
+#let _cover-path(cover, page-path) = {
+  if cover.starts-with("/") or cover.contains("://") { cover }
+  else { _page-dir(page-path) + cover }
+}
+
+// Cover image. The path is made relative to the current page, so it works whatever the server root (or over file://). Calepin then embeds the image in the page: keep covers light (≈1200×630, compressed JPG/WebP or SVG). `page-path` is the post's source path or href, used to resolve a cover given relative to the post's folder.
+#let _cover(meta, class, page-path, lazy: false) = {
+  let src = calepin.url(_cover-path(meta.cover, page-path))
+  let attrs = (class: class, src: src, alt: meta.at("cover-alt", default: ""))
   if lazy { attrs.insert("loading", "lazy") }
   html.elem("img", attrs: attrs)
 }
@@ -308,7 +322,9 @@
       el("span", class: "mx-post-sep mx-post-reading-sep", attrs: ("aria-hidden": "true", hidden: "hidden"), "·")
       el("span", class: "mx-post-reading", attrs: (hidden: "hidden"), "")
     })
-    if "cover" in meta { _cover(meta, "mx-post-cover") }
+    if "cover" in meta {
+      _cover(meta, "mx-post-cover", sys.inputs.at("calepin-current-href", default: ""))
+    }
     if tags.len() > 0 {
       el("ul", class: "mx-post-tags", attrs: ("aria-label": "Tags"), tags.map(t =>
         el("li", el("a", attrs: (href: _blog-link("tag", t)), {
@@ -361,7 +377,7 @@
     if kind != none {
       el("div", class: "mx-card-top", el("span", class: "mx-card-tag", kind))
     }
-    if "cover" in meta { _cover(meta, "mx-card-cover", lazy: true) }
+    if "cover" in meta { _cover(meta, "mx-card-cover", page.path, lazy: true) }
     el("h3", class: "mx-card-title", meta.title)
     el("div", class: "mx-card-body", meta.description)
     el("p", class: "mx-card-meta", {
@@ -425,4 +441,43 @@
     el("a", attrs: (href: calepin.url("/atom.xml")), "Atom feed")
     "."
   })
+}
+
+// ---------------------------------------------------------------------------
+// Equations in HTML pages. Use in a page: #show: math-html
+//  - block equations are rendered by Typst as SVG (exact layout), wrapped in
+//    <div class="mx-equation"> so the theme can centre them;
+//  - inline equations stay MathML. Typst emits combining marks (U+0307,
+//    U+0308…) for dot(), dot.double()…, which browsers draw misplaced, so they
+//    are swapped for the spacing variants, which MathML positions correctly.
+// ---------------------------------------------------------------------------
+#let _spacing-accents = (
+  "\u{300}": $\u{60}$,   // grave
+  "\u{301}": $\u{B4}$,   // acute
+  "\u{303}": $\u{2DC}$,  // tilde
+  "\u{304}": $\u{AF}$,   // macron
+  "\u{306}": $\u{2D8}$,  // breve
+  "\u{307}": $\u{2D9}$,  // dot
+  "\u{308}": $\u{A8}$,   // dot.double
+  "\u{30A}": $\u{2DA}$,  // circle
+  "\u{30C}": $\u{2C7}$,  // caron
+)
+#let math-font = "STIX Two Math"
+#let math-html(body) = {
+  // Font of the SVG equations (Typst draws the glyphs, so it only has to be
+  // installed where `calepin compile` runs). Inline MathML uses the web font
+  // declared in the theme CSS.
+  show math.equation: set text(font: math-font)
+  show math.equation.where(block: true): it => context {
+    if target() == "html" {
+      el("div", class: "mx-equation", html.frame(it))
+    } else { it }
+  }
+  show math.accent: it => context {
+    if target() == "html" and it.accent in _spacing-accents {
+      html.elem("mover", attrs: (accent: "true"),
+        { it.base; _spacing-accents.at(it.accent) })
+    } else { it }
+  }
+  body
 }
