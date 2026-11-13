@@ -26,6 +26,7 @@ WORKTREE_DIR="${WORKTREE_DIR:-.gh-pages-worktree}"
 # Dossier du site Calepin et activation de la mise à jour des publications.
 SITE_DIR="${SITE_DIR:-site}"
 UPDATE_PUBLICATIONS="${UPDATE_PUBLICATIONS:-1}"
+UPDATE_SOFTWARE="${UPDATE_SOFTWARE:-1}"
 COMMIT_MESSAGE="${COMMIT_MESSAGE:-docs: mise à jour de la documentation ($(date -u +%Y-%m-%dT%H:%M:%SZ))}"
 
 # --- Vérifications préalables ----------------------------------------------
@@ -52,19 +53,35 @@ cleanup_worktree() {
 }
 trap cleanup_worktree EXIT
 
-# --- Mise à jour des publications et recompilation du site -----------------
-# Récupère les publications (HAL) et les citations (OpenAlex), puis recompile
-# le site pour que SOURCE contienne les données à jour.
-# Désactivable avec UPDATE_PUBLICATIONS=0.
+# --- Mise à jour des données et recompilation du site ----------------------
+# Récupère les publications (HAL) et les citations (OpenAlex), ainsi que la
+# version et le nombre d'étoiles GitHub des logiciels, puis recompile le site
+# pour que SOURCE contienne les données à jour. En cas d'échec, les données
+# existantes sont conservées.
+# Désactivable avec UPDATE_PUBLICATIONS=0 et UPDATE_SOFTWARE=0.
 
+UPDATED=0
 if [ "$UPDATE_PUBLICATIONS" != "0" ] && [ -d "$SITE_DIR" ]; then
   echo "Mise à jour des publications…"
   if (cd "$SITE_DIR" && python3 scripts/update_publications.py); then
-    echo "Recompilation du site…"
-    (cd "$SITE_DIR" && calepin compile .)
+    UPDATED=1
   else
     echo "Avertissement : échec de la mise à jour des publications, publication avec les données existantes." >&2
   fi
+fi
+
+if [ "$UPDATE_SOFTWARE" != "0" ] && [ -d "$SITE_DIR" ]; then
+  echo "Mise à jour des logiciels (versions, étoiles GitHub)…"
+  if (cd "$SITE_DIR" && python3 scripts/update_software.py); then
+    UPDATED=1
+  else
+    echo "Avertissement : échec de la mise à jour des logiciels, publication avec les données existantes." >&2
+  fi
+fi
+
+if [ "$UPDATED" = "1" ]; then
+  echo "Recompilation du site…"
+  (cd "$SITE_DIR" && calepin compile .)
 fi
 
 git fetch "$REMOTE" "$BRANCH" > /dev/null 2>&1 || true

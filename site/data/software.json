@@ -1,0 +1,45 @@
+{
+  "updated": "2026-11-13",
+  "packages": {
+    "maucejo/StructuralVibration.jl": {
+      "stars": 21,
+      "version": "1.12.0",
+      "version_source": "GitHub release"
+    },
+    "maucejo/UFFFiles.jl": {
+      "stars": 2,
+      "version": "1.2.1",
+      "version_source": "GitHub release"
+    },
+    "maucejo/bookly": {
+      "stars": 79,
+      "version": "5.3.0",
+      "version_source": "Typst Universe"
+    },
+    "maucejo/slydekit": {
+      "stars": 6,
+      "version": "0.5.2",
+      "version_source": "Typst Universe"
+    },
+    "maucejo/elsearticle": {
+      "stars": 28,
+      "version": "3.1.0",
+      "version_source": "Typst Universe"
+    },
+    "maucejo/elspub": {
+      "stars": 9,
+      "version": "1.0.0",
+      "version_source": "Typst Universe"
+    },
+    "maucejo/community-cnam-thesis": {
+      "stars": 1,
+      "version": "0.1.2",
+      "version_source": "Typst Universe"
+    },
+    "maucejo/quarto-bookly": {
+      "stars": 5,
+      "version": "0.1.0",
+      "version_source": "Quarto extension"
+    }
+  }
+}

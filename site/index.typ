@@ -51,6 +51,13 @@
   #button("publications.html")[All publications #sym.arrow]
 ]
 
+#if posts().len() > 0 {
+  section(kicker: "Blog", [Latest posts])[
+    #latest-posts(n: 2)
+    #button("blog.html")[All posts #sym.arrow]
+  ]
+}
+
 #section(kicker: "Background", [Education])[
   #timeline(
     (when: "2019", what: [Habilitation to supervise research (HDR)], where: [Conservatoire national des arts et métiers, France]),

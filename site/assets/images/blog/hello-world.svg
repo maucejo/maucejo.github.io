@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Damped oscillation">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#11304C"/><stop offset="1" stop-color="#2f6f9f"/></linearGradient></defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <path d="M0 315 C 60 60, 120 570, 180 315 S 300 120, 360 315 S 480 440, 540 315 S 660 255, 720 315 S 840 345, 900 315 S 1020 305, 1200 315"
+        fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".85"/>
+</svg>

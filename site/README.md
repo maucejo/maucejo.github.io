@@ -9,6 +9,7 @@ and a custom theme (`themes/aucejo`, extending the bundled `academic` theme).
 calepin watch . _site --serve --open      # live preview
 calepin compile .                         # build into _site/
 python3 scripts/update_publications.py    # refresh data/publications.json from HAL
+python3 scripts/update_software.py        # refresh data/software.json (versions, GitHub stars)
 ```
 
 ## Layout
@@ -19,6 +20,7 @@ python3 scripts/update_publications.py    # refresh data/publications.json from 
 | `*.typ` | Pages (title + description come from `#metadata((...)) <website-metadata>`) |
 | `_lib/ui.typ` | Typst components emitting HTML: `section`, `card(s)`, `chips`, `timeline`, `stats`, `button`, `pub-list`… |
 | `data/publications.json` | Publication list generated from HAL |
+| `data/software.json` | Package versions and GitHub stars, generated from the links in `software.typ` |
 | `themes/aucejo/layouts/` | `site.html` (inner pages), `site-home.html` (landing page with hero) |
 | `themes/aucejo/partials/` | Overridden nav, brand, footer, head (fonts) + new `page-header`, `social-links` |
 | `themes/aucejo/css/60_aucejo.css` | Design tokens (`--calepin-*`, light/dark) and `mx-*` components |

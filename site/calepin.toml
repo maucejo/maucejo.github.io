@@ -18,6 +18,7 @@ theme-color = "#11304C"
 output-dir = "_site"
 asset-dir = "_calepin"   # GitHub Pages does not serve dot-directories
 pdf = false
+feeds = true   # Atom feed of blog posts (atom.xml), built from post metadata
 typ = false
 
 [static]
@@ -68,6 +69,11 @@ weight = 30
 target = "teaching.typ"
 label = "Teaching"
 weight = 40
+
+[[menus.main]]
+target = "blog.typ"
+label = "Blog"
+weight = 50
 
 [[menus.social]]
 target = "https://github.com/maucejo"
