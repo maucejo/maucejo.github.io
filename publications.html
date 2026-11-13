@@ -1857,7 +1857,7 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--calepin-color-selection);
 }
 
-.calepin-content a:not(.mx-btn):not(.mx-card):not(.mx-pub-link):not(.mx-pub-cites):not(.mx-pub-title a) {
+.calepin-content a:not(.mx-btn):not(.mx-card):not(.mx-pub-link):not(.mx-pub-cites):not(.mx-pub-title a):not(.mx-post-back):not(.mx-post-nav-link):not(.mx-post-type):not(.mx-post-tags a) {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.2em;
@@ -1865,7 +1865,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: text-decoration-color 150ms ease, color 150ms ease;
 }
 
-.calepin-content a:not(.mx-btn):not(.mx-card):not(.mx-pub-link):not(.mx-pub-cites):not(.mx-pub-title a):hover {
+.calepin-content a:not(.mx-btn):not(.mx-card):not(.mx-pub-link):not(.mx-pub-cites):not(.mx-pub-title a):not(.mx-post-back):not(.mx-post-nav-link):not(.mx-post-type):not(.mx-post-tags a):hover {
   text-decoration-color: currentColor;
 }
 
@@ -2491,6 +2491,49 @@ html[data-theme="dark"] .mx-btn-primary:hover {
   text-transform: uppercase;
 }
 
+/* Version + GitHub stars, in a footer row pushed to the bottom of the card
+   so that the badges line up across a row of cards. */
+.mx-card-stats {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
+.mx-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.6rem;
+  border: 1px solid var(--calepin-color-border);
+  border-radius: 999px;
+  background: var(--calepin-surface);
+  color: var(--calepin-color-muted);
+  font-family: var(--calepin-font-mono);
+  font-size: 0.74rem;
+  font-weight: 500;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+
+.mx-badge-version {
+  border-color: color-mix(in srgb, var(--calepin-color-accent) 30%, var(--calepin-color-border));
+  background: color-mix(in srgb, var(--calepin-color-accent) 8%, var(--calepin-surface));
+  color: var(--calepin-color-accent);
+}
+
+/* Star drawn with a mask (not a ★ glyph) so it centres exactly on the digits. */
+.mx-badge-icon {
+  flex: none;
+  width: 0.85rem;
+  height: 0.85rem;
+  background: #d4a017;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2.5l2.94 5.96 6.56.95-4.75 4.63 1.12 6.54L12 17.5l-5.87 3.08 1.12-6.54L2.5 9.41l6.56-.95z'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2.5l2.94 5.96 6.56.95-4.75 4.63 1.12 6.54L12 17.5l-5.87 3.08 1.12-6.54L2.5 9.41l6.56-.95z'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
 .mx-card-title {
   margin: 0 0 0.5rem;
   font-size: 1.15rem;
@@ -2663,6 +2706,203 @@ input.mx-pub-search:focus {
   font-size: 0.75rem;
   opacity: 0.7;
 }
+
+.mx-posts [hidden] { display: none; }
+
+.calepin-content .mx-card-cover {
+  display: block;
+  width: 100%;
+  margin: 0 0 1.1rem;
+  aspect-ratio: 1200 / 630;
+  object-fit: cover;
+  border-radius: calc(var(--calepin-radius-md) * 0.75);
+}
+
+.mx-post-head { margin: 0 0 2rem; }
+
+.mx-post-byline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 0.9rem;
+  color: var(--calepin-color-muted);
+  font-size: 0.92rem;
+}
+
+.mx-post-author { font-weight: 600; color: var(--calepin-color-text); }
+
+.mx-post-byline [hidden] { display: none; }
+
+.calepin-content a.mx-post-back {
+  display: inline-block;
+  margin: 0 0 1rem;
+  color: var(--calepin-color-muted);
+  font-size: 0.88rem;
+  text-decoration: none;
+}
+
+.calepin-content a.mx-post-back:hover { color: var(--calepin-color-accent); }
+
+.calepin-content a.mx-post-type {
+  margin-right: 0.35rem;
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--calepin-color-accent) 12%, transparent);
+  color: var(--calepin-color-accent);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 150ms ease;
+}
+
+.calepin-content a.mx-post-type:hover {
+  background: color-mix(in srgb, var(--calepin-color-accent) 22%, transparent);
+}
+
+.calepin-content ul.mx-post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.25rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* The base theme sets `ul li { list-style: square }` on the items. */
+.calepin-content ul.mx-post-tags li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1;
+}
+
+.calepin-content .mx-post-tags a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.4rem 0.8rem 0.4rem 0.65rem;
+  border: 1px solid var(--calepin-color-border);
+  border-radius: 999px;
+  background: var(--calepin-surface);
+  color: var(--calepin-color-text);
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: border-color 150ms ease, background 150ms ease, color 150ms ease, transform 150ms ease;
+}
+
+.mx-post-tag-hash {
+  color: var(--calepin-color-accent);
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+.calepin-content .mx-post-tags a:hover,
+.calepin-content .mx-post-tags a:focus-visible {
+  border-color: color-mix(in srgb, var(--calepin-color-accent) 50%, var(--calepin-color-border));
+  background: color-mix(in srgb, var(--calepin-color-accent) 8%, var(--calepin-surface));
+  color: var(--calepin-color-accent);
+  transform: translateY(-1px);
+}
+
+.calepin-content .mx-post-tags a:hover .mx-post-tag-hash { opacity: 1; }
+
+@media (prefers-reduced-motion: reduce) {
+  .calepin-content .mx-post-tags a:hover { transform: none; }
+}
+
+.mx-post-active-tag {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+  color: var(--calepin-color-muted);
+  font-size: 0.88rem;
+}
+
+.mx-post-active-tag[hidden] { display: none; }
+
+.mx-post-active-tag strong {
+  color: var(--calepin-color-text);
+  font-family: var(--calepin-font-mono);
+  font-weight: 500;
+}
+
+button.mx-post-clear-tag {
+  width: auto;
+  margin: 0;
+  padding: 0 0.45rem;
+  border: 1px solid var(--calepin-color-border);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--calepin-color-muted);
+  font-size: 0.9rem;
+  line-height: 1.4;
+  box-shadow: none;
+}
+
+button.mx-post-clear-tag:hover {
+  border-color: var(--calepin-color-text);
+  background: transparent;
+  color: var(--calepin-color-text);
+}
+
+.mx-post-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 3rem 0 0;
+  padding: 1.5rem 0 0;
+  border-top: 1px solid var(--calepin-color-border);
+}
+
+.calepin-content a.mx-post-nav-link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid var(--calepin-color-border);
+  border-radius: var(--calepin-radius-md);
+  color: var(--calepin-color-text);
+  text-decoration: none;
+  transition: border-color 150ms ease;
+}
+
+.calepin-content a.mx-post-nav-link:hover {
+  border-color: var(--calepin-color-accent);
+}
+
+.mx-post-nav-link.is-next {
+  grid-column: 2;
+  text-align: right;
+}
+
+.mx-post-nav-label {
+  color: var(--calepin-color-muted);
+  font-size: 0.8rem;
+}
+
+.mx-post-nav-title { font-weight: 600; }
+
+@media (max-width: 640px) {
+  .mx-post-nav { grid-template-columns: 1fr; }
+  .mx-post-nav-link.is-next { grid-column: 1; }
+}
+
+.calepin-content .mx-post-cover {
+  display: block;
+  width: 100%;
+  margin: 1.25rem 0 0;
+  aspect-ratio: 1200 / 630;
+  object-fit: cover;
+  border-radius: var(--calepin-radius-md);
+  border: 1px solid var(--calepin-color-border);
+}
+
+.mx-pub-empty[hidden] { display: none; }
 
 .mx-pub-empty {
   margin: 0;
@@ -2990,6 +3230,8 @@ html[data-theme="dark"] .mx-pub-type.is-chapter { color: #f0b54a; }
                     <li>                <a href="software.html" aria-label="Software">Software</a></li>
                 
                     <li>                <a href="teaching.html" aria-label="Teaching">Teaching</a></li>
+                
+                    <li>                <a href="blog.html" aria-label="Blog">Blog</a></li>
                 
                 </ul>
                 <div class="mx-menu-tools">
@@ -3914,6 +4156,84 @@ html[data-theme="dark"] .mx-pub-type.is-chapter { color: #f0b54a; }
     input?.addEventListener("input", apply);
   }
 
+  // Blog listing: free-text search, type tabs, and a tag filter set by the
+  // tag links of posts. State lives in the URL hash (#type=… or #tag=…).
+  function initPostFilters() {
+    const filters = document.querySelector("[data-mx-post-filters]");
+    const list = document.querySelector(".mx-posts");
+    if (!filters || !list) return;
+
+    const input = filters.querySelector(".mx-pub-search");
+    const tabs = Array.from(filters.querySelectorAll("[data-filter]"));
+    const empty = filters.querySelector(".mx-pub-empty");
+    const tagBox = filters.querySelector(".mx-post-active-tag");
+    const items = Array.from(list.querySelectorAll(".mx-post"));
+    let type = "all";
+    let tag = null;
+
+    function apply() {
+      const terms = (input?.value || "").toLowerCase().trim().split(/\s+/).filter(Boolean);
+      let shown = 0;
+      items.forEach((item) => {
+        const okType = type === "all" || item.dataset.type === type;
+        const okTag = !tag || (item.dataset.tags || "").split("|").includes(tag);
+        const okSearch = terms.every((t) => item.dataset.search.includes(t));
+        item.hidden = !(okType && okTag && okSearch);
+        if (!item.hidden) shown += 1;
+      });
+      if (empty) empty.hidden = shown > 0;
+      if (tagBox) {
+        tagBox.hidden = !tag;
+        tagBox.querySelector("strong").textContent = tag ? "#" + tag : "";
+      }
+      tabs.forEach((t) => {
+        const on = t.dataset.filter === type;
+        t.classList.toggle("is-active", on);
+        t.setAttribute("aria-pressed", on ? "true" : "false");
+      });
+    }
+
+    function writeHash() {
+      const hash = tag ? "#tag=" + encodeURIComponent(tag)
+        : type !== "all" ? "#type=" + encodeURIComponent(type) : "";
+      history.replaceState(null, "", location.pathname + location.search + hash);
+    }
+
+    function readHash() {
+      const m = location.hash.match(/^#(type|tag)=(.+)$/);
+      const value = m ? decodeURIComponent(m[2]) : null;
+      type = m && m[1] === "type" && tabs.some((t) => t.dataset.filter === value) ? value : "all";
+      tag = m && m[1] === "tag" ? value : null;
+      apply();
+    }
+
+    tabs.forEach((tab) => tab.addEventListener("click", () => {
+      type = tab.dataset.filter;
+      writeHash();
+      apply();
+    }));
+    tagBox?.querySelector("button")?.addEventListener("click", () => {
+      tag = null;
+      writeHash();
+      apply();
+    });
+    input?.addEventListener("input", apply);
+    window.addEventListener("hashchange", readHash);
+    readHash();
+  }
+
+  // "N min read" in the byline of a post, from its word count.
+  function initReadingTime() {
+    const target = document.querySelector(".mx-post-reading");
+    const main = document.querySelector(".mx-main");
+    if (!target || !main) return;
+    const words = (main.innerText || "").trim().split(/\s+/).length;
+    target.textContent = Math.max(1, Math.round(words / 220)) + " min read";
+    target.hidden = false;
+    const sep = document.querySelector(".mx-post-reading-sep");
+    if (sep) sep.hidden = false;
+  }
+
   function initReveal() {
     if (!("IntersectionObserver" in window)) return;
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
@@ -3932,6 +4252,8 @@ html[data-theme="dark"] .mx-pub-type.is-chapter { color: #f0b54a; }
   }
 
   initPublicationFilters();
+  initPostFilters();
+  initReadingTime();
   initReveal();
 })();
 
