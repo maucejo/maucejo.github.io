@@ -1857,6 +1857,21 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--calepin-color-selection);
 }
 
+/* Figures: image and caption centered. Calepin caps captions at 34rem, so
+   the caption box itself is centered too, not only its text. */
+.calepin-content figure > img { margin-inline: auto; }
+.calepin-content figure figcaption {
+  margin-inline: auto;
+  text-align: center;
+  font-size: 1.15em;   /* Typst frames use 11pt text: match the body copy */
+}
+
+/* Blog posts: justified body text, with hyphenation to avoid wide gaps. */
+.calepin-content:has(.mx-post-head) :is(p, li) {
+  text-align: justify;
+  hyphens: auto;
+}
+
 .calepin-content a:not(.mx-btn):not(.mx-card):not(.mx-pub-link):not(.mx-pub-cites):not(.mx-pub-title a):not(.mx-post-back):not(.mx-post-nav-link):not(.mx-post-type):not(.mx-post-tags a) {
   text-decoration: underline;
   text-decoration-thickness: 1px;
@@ -2408,6 +2423,8 @@ html[data-theme="dark"] .mx-btn-primary:hover {
   top: calc(var(--calepin-topbar-height) + 1.5rem);
   align-self: start;
 }
+/* sub-entries of inactive sections (see initTocCollapse in aucejo.js) */
+.calepin-website-toc li.is-collapsed { display: none; }
 
 /* ---------- Chips ---------- */
 .mx-chips {
@@ -3200,6 +3217,40 @@ html[data-theme="dark"] .mx-pub-type.is-chapter { color: #f0b54a; }
   .mx-timeline-item { grid-template-columns: 3rem 1fr; }
   .mx-timeline-item::before { left: calc(3.6rem - 5px); }
   .mx-pub-filters { position: static; }
+}
+
+/* ---------------------------------------------------------------------------
+   Math — block equations are SVG frames (see math-html in _lib/ui.typ),
+   inline equations are MathML
+   --------------------------------------------------------------------------- */
+.mx-equation {
+  margin-block: 1.25em;
+  overflow-x: auto;
+  overflow-y: hidden;
+  text-align: center;
+  font-size: 1.15em;   /* Typst frames use 11pt text: match the body copy */
+}
+.mx-equation > svg {
+  display: inline-block !important;   /* Typst sets display:block inline */
+  max-width: none;
+  vertical-align: middle;
+}
+/* Typst paints glyphs black: follow the text colour (dark mode) */
+.mx-equation svg [fill="#000000"] { fill: currentColor; }
+.mx-equation svg [stroke="#000000"] { stroke: currentColor; }
+
+@font-face {
+  font-family: "STIX Two Math";
+  src: local("STIX Two Math"), local("STIXTwoMath-Regular"),
+       url("/assets/fonts/STIXTwoMath.woff2") format("woff2");
+  font-display: swap;
+}
+math {
+  font-family: "STIX Two Math", "Cambria Math", math;
+}
+/* lift accents (dot, dot.double…) a little off the base letter */
+math mover[accent="true"] > :last-child {
+  padding-block-end: 0.12em;
 }
 
     </style>
@@ -4244,10 +4295,47 @@ html[data-theme="dark"] .mx-pub-type.is-chapter { color: #f0b54a; }
     sections.forEach((s) => observer.observe(s));
   }
 
+  // Collapsible TOC: sub-entries are shown only while their parent section is
+  // active. Calepin renders a flat list (li.level-N) and marks the current
+  // link with a.active; this rebuilds the hierarchy and hides the entries
+  // whose parent is not on the path to the active one.
+  function initTocCollapse() {
+    const nav = document.querySelector(".calepin-website-toc nav");
+    if (!nav) return;
+    const items = Array.from(nav.querySelectorAll("li")).map((li) => {
+      const m = li.className.match(/\blevel-(\d+)\b/);
+      return { li, level: m ? Number(m[1]) : 0, parent: null };
+    });
+    if (items.length < 2) return;
+
+    const top = Math.min(...items.map((it) => it.level));
+    const stack = [];
+    for (const it of items) {
+      while (stack.length && stack[stack.length - 1].level >= it.level) stack.pop();
+      it.parent = stack[stack.length - 1] || null;
+      stack.push(it);
+    }
+
+    function refresh() {
+      const activeLi = nav.querySelector("a.active")?.closest("li");
+      const open = new Set();
+      for (let it = items.find((i) => i.li === activeLi); it; it = it.parent) open.add(it);
+      for (const it of items) {
+        it.li.classList.toggle("is-collapsed", it.level !== top && !open.has(it.parent));
+      }
+    }
+
+    new MutationObserver((records) => {
+      if (records.some((r) => r.target.tagName === "A")) refresh();
+    }).observe(nav, { subtree: true, attributes: true, attributeFilter: ["class"] });
+    refresh();
+  }
+
   initPublicationFilters();
   initPostFilters();
   initReadingTime();
   initReveal();
+  initTocCollapse();
 })();
 
     </script>

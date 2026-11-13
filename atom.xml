@@ -4,16 +4,16 @@
   <id>https://maucejo.github.io</id>
   <link href="https://maucejo.github.io"/>
   <link href="https://maucejo.github.io/atom.xml" rel="self"/>
-  <updated>2026-11-12T00:00:00Z</updated>
+  <updated>2026-11-13T00:00:00Z</updated>
   <subtitle>Full professor of Structural Mechanics and Acoustics at Le Cnam (MACS), Paris. Inverse problems, vibration control and vibro-acoustics.</subtitle>
   
   <entry>
-    <title>Hello, world: how posts work on this blog</title>
-    <id>https://maucejo.github.io/blog/hello-world.html</id>
-    <link href="https://maucejo.github.io/blog/hello-world.html"/>
-    <updated>2026-11-12T00:00:00Z</updated>
+    <title>Make beautiful apps with Makie</title>
+    <id>https://maucejo.github.io/blog/MakieApp/index.html</id>
+    <link href="https://maucejo.github.io/blog/MakieApp/index.html"/>
+    <updated>2026-11-13T00:00:00Z</updated>
     <author><name>Mathieu Aucejo</name></author>
-    <summary>A sample post showing how to write and publish a new entry.</summary>
+    <summary>Develop interactive apps to share your ideas</summary>
   </entry>
   
 </feed>

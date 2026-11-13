@@ -5,7 +5,7 @@
 ## Pages
 
 - [Blog](https://maucejo.github.io/blog.html): Notes on vibrations, acoustics, scientific software and research tooling.
-- [Hello, world: how posts work on this blog](https://maucejo.github.io/blog/hello-world.html): A sample post showing how to write and publish a new entry.
+- [Make beautiful apps with Makie](https://maucejo.github.io/blog/MakieApp/): Develop interactive apps to share your ideas
 - [Home](https://maucejo.github.io/)
 - [Publications](https://maucejo.github.io/publications.html): Complete list of my publications, retrieved from the HAL open archive. Most items link to an open-access PDF.
 - [Research](https://maucejo.github.io/research.html): Identifying, modeling and controlling vibrations and sound in mechanical structures.

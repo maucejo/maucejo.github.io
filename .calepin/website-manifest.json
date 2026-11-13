@@ -1,8 +1,8 @@
 {
   "outputs": [
     "404.html",
+    "assets/fonts/STIXTwoMath.woff2",
     "assets/images/avatar.jpg",
-    "assets/images/blog/hello-world.svg",
     "assets/images/julia.svg",
     "assets/images/logo.svg",
     "assets/images/matlab.png",
@@ -10,7 +10,7 @@
     "assets/images/quarto_logo.png",
     "assets/images/typst_logo.png",
     "atom.xml",
-    "blog/hello-world.html",
+    "blog/MakieApp/index.html",
     "blog.html",
     "index.html",
     "llms.txt",
