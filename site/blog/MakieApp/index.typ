@@ -151,7 +151,7 @@ The goal of the app is to plot the displacement of the mass for a given set of p
 
 The app shown in @fig:makie_app is the `free_response_1dof` function of `StructuralVibration.jl`. In this section, I rebuild it step by step. Each step introduces one Makie concept: layouts, widgets, Observables and interactions.
 
-=== The skeleton
+=== App skeleton
 
 The whole app is wrapped in a function that takes the fixed data of the problem: the mass `m` and the time vector `t`. The parameters tuned by the user are the natural frequency $f_0$ (in Hz), the damping ratio $xi$, and the initial conditions $x_0$ and $v_0$. A small inner function computes the response for a given set of parameters, using the same solver as in the static example:
 
@@ -389,7 +389,6 @@ Once these ideas are clear, the app is mostly a matter of describing _what_ depe
 
 Of course, a GLMakie app runs on the user's machine and requires a Julia installation, which is less convenient than a web page for students. This is where the backend system pays off: the same code can be rendered in the browser with WGLMakie and served with #link("https://github.com/SimonDanisch/Bonito.jl")[Bonito.jl].
 
-In the meantime, I hope this tutorial makes you want to build your own apps. Teaching vibrations is a good playground, but the same approach works for any model with a few parameters whose effect you want to explore or explain.
-
+`StructuralVibration.jl` offers a few more apps, such as the forced response of a spring–mass oscillator, the free/forced response of a two-degree-of-freedom system and an analysis of the Newmark method. I hope they will be useful for teaching and learning vibration theory, and that they will inspire you to build your own interactive apps with Makie.
 
 #post-footer(meta)
