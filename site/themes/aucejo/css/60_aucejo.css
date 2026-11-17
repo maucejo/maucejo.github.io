@@ -1410,7 +1410,7 @@ html[data-theme="dark"] .mx-pub-type.is-chapter { color: #f0b54a; }
     display: inline-grid;
     margin-left: auto;
     border: 1px solid var(--calepin-color-border);
-    border-radius: 999px;
+    border-radius: var(--calepin-radius-sm);
     background: var(--calepin-surface);
     color: var(--calepin-color-text);
   }

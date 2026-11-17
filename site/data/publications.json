@@ -230,7 +230,7 @@
   "doi": "10.1016/j.ymssp.2022.108881",
   "hal": "https://hal.science/hal-03557526v1",
   "pdf": "https://hal.science/hal-03557526/document",
-  "citations": 8,
+  "citations": 9,
   "openalex": "https://openalex.org/W4210661732"
  },
  {
@@ -338,7 +338,7 @@
   "doi": "10.1016/j.ymssp.2021.107637",
   "hal": "https://hal.science/hal-03149400v1",
   "pdf": "https://hal.science/hal-03149400/document",
-  "citations": 11,
+  "citations": 12,
   "openalex": "https://openalex.org/W3133459582"
  },
  {
@@ -374,7 +374,7 @@
   "doi": "10.1177/09544062211003621",
   "hal": "https://hal.science/hal-03225940v1",
   "pdf": "https://hal.science/hal-03225940/document",
-  "citations": 4,
+  "citations": 7,
   "openalex": "https://openalex.org/W3161630995"
  },
  {
@@ -448,7 +448,7 @@
   "doi": "10.1016/j.ymssp.2020.106887",
   "hal": "https://hal.science/hal-02551104v1",
   "pdf": "https://hal.science/hal-02551104/document",
-  "citations": 9,
+  "citations": 10,
   "openalex": "https://openalex.org/W3019975194"
  },
  {
@@ -501,7 +501,7 @@
   "doi": "10.1016/j.ymssp.2019.02.021",
   "hal": "https://hal.science/hal-02068524v1",
   "pdf": "https://hal.science/hal-02068524/document",
-  "citations": 51,
+  "citations": 53,
   "openalex": "https://openalex.org/W2915877864"
  },
  {
@@ -588,7 +588,7 @@
   "doi": "10.1016/j.jsv.2018.10.060",
   "hal": "https://hal.science/hal-02068530v1",
   "pdf": "https://hal.science/hal-02068530/document",
-  "citations": 47,
+  "citations": 50,
   "openalex": "https://openalex.org/W2898716241"
  },
  {
@@ -644,7 +644,7 @@
   "doi": "10.1016/j.ymssp.2017.10.027",
   "hal": "https://hal.science/hal-02068516v1",
   "pdf": "https://hal.science/hal-02068516/document",
-  "citations": 49,
+  "citations": 50,
   "openalex": "https://openalex.org/W2766139997"
  },
  {
@@ -749,7 +749,7 @@
   "doi": "10.1016/j.ymssp.2017.10.023",
   "hal": "https://hal.science/hal-02068508v1",
   "pdf": "https://hal.science/hal-02068508/document",
-  "citations": 50,
+  "citations": 54,
   "openalex": "https://openalex.org/W2766481949"
  },
  {
@@ -790,7 +790,7 @@
   "doi": "10.1016/j.ymssp.2016.09.011",
   "hal": "https://hal.science/hal-02068499v1",
   "pdf": "https://hal.science/hal-02068499/document",
-  "citations": 77,
+  "citations": 78,
   "openalex": "https://openalex.org/W2523604609"
  },
  {
@@ -845,7 +845,7 @@
   "doi": "10.1016/j.sna.2017.03.030",
   "hal": "https://hal.science/hal-01657528v2",
   "pdf": "https://hal.science/hal-01657528/document",
-  "citations": 74,
+  "citations": 79,
   "openalex": "https://openalex.org/W2599055742"
  },
  {
@@ -917,7 +917,7 @@
   "doi": "10.1016/j.ymssp.2015.05.004",
   "hal": "https://hal.science/hal-02068262v1",
   "pdf": "https://hal.science/hal-02068262/document",
-  "citations": 67,
+  "citations": 72,
   "openalex": "https://openalex.org/W1169867013"
  },
  {
@@ -1098,7 +1098,7 @@
   "doi": "10.1088/0964-1726/24/4/045018",
   "hal": "https://hal.science/hal-01691077v1",
   "pdf": "https://hal.science/hal-01691077/document",
-  "citations": 36,
+  "citations": 39,
   "openalex": "https://openalex.org/W2046447608"
  },
  {
@@ -1116,7 +1116,7 @@
   "doi": "10.1088/0964-1726/24/11/115037",
   "hal": "https://hal.science/hal-01691081v1",
   "pdf": "https://hal.science/hal-01691081/document",
-  "citations": 73,
+  "citations": 74,
   "openalex": "https://openalex.org/W2189974845"
  },
  {
@@ -1186,7 +1186,7 @@
   "doi": "10.1016/j.jsv.2014.06.027",
   "hal": "https://hal.science/hal-02068189v1",
   "pdf": "https://hal.science/hal-02068189/document",
-  "citations": 84,
+  "citations": 86,
   "openalex": "https://openalex.org/W2021572334"
  },
  {
@@ -1309,7 +1309,7 @@
   "doi": "10.1016/j.jsv.2012.04.010",
   "hal": "https://hal.science/hal-01668987v1",
   "pdf": "https://hal.science/hal-01668987/document",
-  "citations": 37,
+  "citations": 40,
   "openalex": "https://openalex.org/W1969732232"
  },
  {
@@ -1327,7 +1327,7 @@
   "doi": "10.1115/1.4005838",
   "hal": "https://hal.science/hal-00744504v1",
   "pdf": "https://hal.science/hal-00744504/document",
-  "citations": 24,
+  "citations": 29,
   "openalex": "https://openalex.org/W2075526091"
  },
  {
@@ -1364,7 +1364,7 @@
   "doi": "10.1016/j.compstruc.2010.02.010",
   "hal": "https://hal.science/hal-01668981v1",
   "pdf": "https://hal.science/hal-01668981/document",
-  "citations": 32,
+  "citations": 37,
   "openalex": "https://openalex.org/W1999140571"
  },
  {
@@ -1382,7 +1382,7 @@
   "doi": "10.1016/j.jsv.2010.03.032",
   "hal": "https://hal.science/hal-01668973v1",
   "pdf": "https://hal.science/hal-01668973/document",
-  "citations": 44,
+  "citations": 46,
   "openalex": "https://openalex.org/W1997302810"
  },
  {
